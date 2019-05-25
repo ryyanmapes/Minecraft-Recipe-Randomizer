@@ -1,0 +1,1 @@
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:purple_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:jungle_pressure_plate"},"type":"minecraft:crafting_shaped"}

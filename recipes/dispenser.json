@@ -1,0 +1,1 @@
+{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"X":{"item":"minecraft:bow"}},"pattern":["###","#X#","#R#"],"result":{"item":"minecraft:redstone_lamp"},"type":"minecraft:crafting_shaped"}
