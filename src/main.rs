@@ -26,9 +26,10 @@ fn main() {
 	let all_recipe_files = get_all_dir_files("recipes");
 	// and all tag files
 	let all_tag_files = get_all_dir_files("tags");
+	
 	// part 1.5: extract all tag logic from './tags'
 	let tag_bindings = get_all_tags(&all_tag_files);
-	println!("{:?}", tag_bindings);
+
 	// part 2: extract all recipe outputs from those files
 	let mut all_products = get_all_products(&all_recipe_files);
 
