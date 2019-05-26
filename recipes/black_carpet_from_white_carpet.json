@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:black_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:flower_pot"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:black_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:mossy_cobblestone_slab"},"type":"minecraft:crafting_shaped"}

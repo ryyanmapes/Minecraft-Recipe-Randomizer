@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:green_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:jungle_stairs"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:green_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:end_stone_brick_stairs"},"type":"minecraft:crafting_shaped"}

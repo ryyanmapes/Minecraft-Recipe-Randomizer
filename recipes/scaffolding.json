@@ -1,1 +1,1 @@
-{"key":{"I":{"item":"minecraft:bamboo"},"~":{"item":"minecraft:string"}},"pattern":["I~I","I I","I I"],"result":{"count":6,"item":"minecraft:oak_button"},"type":"minecraft:crafting_shaped"}
+{"key":{"I":{"item":"minecraft:bamboo"},"~":{"item":"minecraft:string"}},"pattern":["I~I","I I","I I"],"result":{"count":6,"item":"minecraft:red_bed"},"type":"minecraft:crafting_shaped"}

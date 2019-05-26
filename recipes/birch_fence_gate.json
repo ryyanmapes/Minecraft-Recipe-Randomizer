@@ -1,1 +1,1 @@
-{"group":"wooden_fence_gate","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:birch_planks"}},"pattern":["#W#","#W#"],"result":{"item":"minecraft:smooth_sandstone_slab"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_fence_gate","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:birch_planks"}},"pattern":["#W#","#W#"],"result":{"item":"minecraft:cut_sandstone_slab"},"type":"minecraft:crafting_shaped"}

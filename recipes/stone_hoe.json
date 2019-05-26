@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:nether_brick_slab"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:cooked_chicken"},"type":"minecraft:crafting_shaped"}

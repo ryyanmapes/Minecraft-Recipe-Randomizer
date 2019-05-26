@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:black_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:dark_oak_planks"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:black_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:chiseled_stone_bricks"},"type":"minecraft:crafting_shaped"}

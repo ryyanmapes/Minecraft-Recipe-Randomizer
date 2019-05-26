@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:lime_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:stone_brick_slab"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:lime_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:smooth_red_sandstone_slab"},"type":"minecraft:crafting_shaped"}

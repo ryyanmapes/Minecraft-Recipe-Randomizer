@@ -1,1 +1,1 @@
-{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"},{"item":"minecraft:cut_sandstone"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:birch_button"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"},{"item":"minecraft:cut_sandstone"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:end_crystal"},"type":"minecraft:crafting_shaped"}

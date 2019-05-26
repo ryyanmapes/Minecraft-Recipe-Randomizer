@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:diamond"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:barrel"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:diamond"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:gray_carpet"},"type":"minecraft:crafting_shaped"}

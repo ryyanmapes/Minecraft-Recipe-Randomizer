@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:iron_ingot"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:stone_button"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:iron_ingot"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:blue_wool"},"type":"minecraft:crafting_shaped"}

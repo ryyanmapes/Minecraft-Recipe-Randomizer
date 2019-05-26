@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:cyan_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:red_carpet"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:cyan_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:gray_bed"},"type":"minecraft:crafting_shaped"}

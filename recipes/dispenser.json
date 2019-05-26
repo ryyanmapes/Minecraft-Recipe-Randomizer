@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"X":{"item":"minecraft:bow"}},"pattern":["###","#X#","#R#"],"result":{"item":"minecraft:redstone_lamp"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"X":{"item":"minecraft:bow"}},"pattern":["###","#X#","#R#"],"result":{"item":"minecraft:writable_book"},"type":"minecraft:crafting_shaped"}

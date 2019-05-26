@@ -1,1 +1,1 @@
-{"group":"bark","key":{"#":{"item":"minecraft:birch_log"}},"pattern":["##","##"],"result":{"count":3,"item":"minecraft:lime_stained_glass_pane"},"type":"minecraft:crafting_shaped"}
+{"group":"bark","key":{"#":{"item":"minecraft:birch_log"}},"pattern":["##","##"],"result":{"count":3,"item":"minecraft:heavy_weighted_pressure_plate"},"type":"minecraft:crafting_shaped"}

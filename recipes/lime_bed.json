@@ -1,1 +1,1 @@
-{"group":"bed","key":{"#":{"item":"minecraft:lime_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:jungle_sign"},"type":"minecraft:crafting_shaped"}
+{"group":"bed","key":{"#":{"item":"minecraft:lime_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:purple_carpet"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:gray_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:prismarine_bricks"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:gray_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:birch_button"},"type":"minecraft:crafting_shaped"}

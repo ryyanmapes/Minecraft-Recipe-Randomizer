@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"F":{"tag":"minecraft:wooden_fences"}},"pattern":["F F","F F","###"],"result":{"item":"minecraft:stone"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"F":{"tag":"minecraft:wooden_fences"}},"pattern":["F F","F F","###"],"result":{"item":"minecraft:red_sandstone_stairs"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"N":{"item":"minecraft:nether_brick"},"W":{"item":"minecraft:nether_wart"}},"pattern":["NW","WN"],"result":{"item":"minecraft:gray_dye"},"type":"minecraft:crafting_shaped"}
+{"key":{"N":{"item":"minecraft:nether_brick"},"W":{"item":"minecraft:nether_wart"}},"pattern":["NW","WN"],"result":{"item":"minecraft:dark_oak_pressure_plate"},"type":"minecraft:crafting_shaped"}

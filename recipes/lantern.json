@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:orange_terracotta"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:cobblestone_stairs"},"type":"minecraft:crafting_shaped"}

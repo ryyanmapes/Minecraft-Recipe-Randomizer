@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"-":{"item":"minecraft:stone_slab"},"I":{"item":"minecraft:stick"}},"pattern":["I-I","# #"],"result":{"item":"minecraft:cyan_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"-":{"item":"minecraft:stone_slab"},"I":{"item":"minecraft:stick"}},"pattern":["I-I","# #"],"result":{"item":"minecraft:jungle_sign"},"type":"minecraft:crafting_shaped"}

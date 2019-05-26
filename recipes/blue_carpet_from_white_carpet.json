@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:blue_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:cut_red_sandstone_slab"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:blue_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:jungle_pressure_plate"},"type":"minecraft:crafting_shaped"}

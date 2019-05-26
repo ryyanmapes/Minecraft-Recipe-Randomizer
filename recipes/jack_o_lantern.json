@@ -1,1 +1,1 @@
-{"key":{"A":{"item":"minecraft:carved_pumpkin"},"B":{"item":"minecraft:torch"}},"pattern":["A","B"],"result":{"item":"minecraft:redstone_block"},"type":"minecraft:crafting_shaped"}
+{"key":{"A":{"item":"minecraft:carved_pumpkin"},"B":{"item":"minecraft:torch"}},"pattern":["A","B"],"result":{"item":"minecraft:light_blue_stained_glass"},"type":"minecraft:crafting_shaped"}

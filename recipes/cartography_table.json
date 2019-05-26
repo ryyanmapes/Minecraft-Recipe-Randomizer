@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:paper"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:quartz_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:paper"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:cooked_beef"},"type":"minecraft:crafting_shaped"}

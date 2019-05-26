@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:light_blue_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:fire_charge"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:light_blue_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:iron_chestplate"},"type":"minecraft:crafting_shaped"}

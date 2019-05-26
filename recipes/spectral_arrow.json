@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:glowstone_dust"},"X":{"item":"minecraft:arrow"}},"pattern":[" # ","#X#"," # "],"result":{"count":2,"item":"minecraft:black_bed"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:glowstone_dust"},"X":{"item":"minecraft:arrow"}},"pattern":[" # ","#X#"," # "],"result":{"count":2,"item":"minecraft:spruce_pressure_plate"},"type":"minecraft:crafting_shaped"}

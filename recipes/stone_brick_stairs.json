@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stone_bricks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:anvil"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stone_bricks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:smoker"},"type":"minecraft:crafting_shaped"}

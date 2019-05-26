@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:gold_ingot"},"X":{"item":"minecraft:apple"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:dark_oak_button"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:gold_ingot"},"X":{"item":"minecraft:apple"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:jack_o_lantern"},"type":"minecraft:crafting_shaped"}

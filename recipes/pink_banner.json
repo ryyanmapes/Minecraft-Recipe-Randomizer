@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:pink_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:white_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:pink_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:gray_bed"},"type":"minecraft:crafting_shaped"}

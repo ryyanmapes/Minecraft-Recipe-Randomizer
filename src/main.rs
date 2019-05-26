@@ -10,13 +10,25 @@ use std::io::Write;
 use std::fs::OpenOptions;
 use std::io::SeekFrom;
 use std::io::Seek;
+use std::collections::HashMap;
+
+#[derive(Debug)]
+enum LogicDependency {
+	Item(String),
+	And(Vec<LogicDependency>),
+	Or(Vec<LogicDependency>),
+}
 
 fn main() {
 	let mut rng = rand::thread_rng();
 
 	// part 1: get all recipe files from './recipes'
-	let all_recipe_files = get_all_recipe_files();
-
+	let all_recipe_files = get_all_dir_files("recipes");
+	// and all tag files
+	let all_tag_files = get_all_dir_files("tags");
+	// part 1.5: extract all tag logic from './tags'
+	let tag_bindings = get_all_tags(&all_tag_files);
+	println!("{:?}", tag_bindings);
 	// part 2: extract all recipe outputs from those files
 	let mut all_products = get_all_products(&all_recipe_files);
 
@@ -118,10 +130,39 @@ fn get_all_products(all_recipe_files: &Vec<PathBuf>) -> Vec<String> {
 	all_products
 }
 
-fn get_all_recipe_files() -> Vec<PathBuf> {
+fn get_all_tags(all_tag_files: &Vec<PathBuf>) -> HashMap<String, LogicDependency> {
+	let mut all_dependencies: HashMap<String, LogicDependency> = HashMap::new();
+
+	for tag_file in all_tag_files.clone().iter() {
+		let f = File::open(tag_file).unwrap();
+		let mut reader = BufReader::new(f);
+
+		let data: Value = serde_json::from_reader(reader)
+			.expect(&format!("Unable to read JSON in {:?}!", tag_file));
+
+		let vals = data.get("values")
+			.expect(&format!("No values {:?}!", tag_file));
+		
+		let mut dependencies: Vec<LogicDependency> = Vec::new();
+
+		// still no clue why I need a double iterator here!
+		for a in vals.as_array().iter() {
+			for tag in a.iter() {
+				dependencies.push(LogicDependency::Item(tag.as_str().unwrap().to_string()));
+			}
+		}
+
+		all_dependencies.insert(tag_file.file_name().unwrap().to_str().unwrap().to_string(), LogicDependency::Or(dependencies));
+		
+	}
+
+	all_dependencies
+}
+
+fn get_all_dir_files(folder: &str) -> Vec<PathBuf> {
 	
 	let mut recipes_dir = env::current_dir().unwrap();
-	recipes_dir.push("recipes");
+	recipes_dir.push(folder);
 
 	if !recipes_dir.exists() {
 		panic!("The recipes directory {:?} doesn't exist!", recipes_dir)

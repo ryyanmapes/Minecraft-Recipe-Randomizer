@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":[{"item":"minecraft:coal"},{"item":"minecraft:charcoal"}]},"pattern":["X","#"],"result":{"count":4,"item":"minecraft:black_carpet"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":[{"item":"minecraft:coal"},{"item":"minecraft:charcoal"}]},"pattern":["X","#"],"result":{"count":4,"item":"minecraft:charcoal"},"type":"minecraft:crafting_shaped"}

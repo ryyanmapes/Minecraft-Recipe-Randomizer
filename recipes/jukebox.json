@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:diamond"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:lime_glazed_terracotta"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:diamond"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:diamond_axe"},"type":"minecraft:crafting_shaped"}

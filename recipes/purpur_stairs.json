@@ -1,1 +1,1 @@
-{"key":{"#":[{"item":"minecraft:purpur_block"},{"item":"minecraft:purpur_pillar"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:stone_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":[{"item":"minecraft:purpur_block"},{"item":"minecraft:purpur_pillar"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:gold_nugget"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:leather"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:diamond_pickaxe"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:leather"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:iron_nugget"},"type":"minecraft:crafting_shaped"}

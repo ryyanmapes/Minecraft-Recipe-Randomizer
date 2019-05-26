@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["XXX"," # "," # "],"result":{"item":"minecraft:torch"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["XXX"," # "," # "],"result":{"item":"minecraft:paper"},"type":"minecraft:crafting_shaped"}

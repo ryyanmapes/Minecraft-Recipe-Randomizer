@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:cyan_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:mossy_stone_brick_stairs"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:cyan_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:mushroom_stew"},"type":"minecraft:crafting_shaped"}

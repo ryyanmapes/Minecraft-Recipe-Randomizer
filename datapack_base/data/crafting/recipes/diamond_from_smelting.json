@@ -1,0 +1,1 @@
+{"type": "minecraft:smelting", "ingredient": {"item": "minecraft:diamond_ore"}, "result": "minecraft:compass", "experience": 1.0, "cookingtime": 200}

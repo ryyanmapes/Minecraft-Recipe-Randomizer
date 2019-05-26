@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shaped", "group": "carpet", "pattern": ["##"], "key": {"#": {"item": "minecraft:orange_wool"}}, "result": {"item": "minecraft:iron_shovel", "count": 3}}

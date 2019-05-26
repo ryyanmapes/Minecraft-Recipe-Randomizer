@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stone"},"I":{"item":"minecraft:iron_ingot"}},"pattern":[" I ","###"],"result":{"item":"minecraft:birch_fence"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stone"},"I":{"item":"minecraft:iron_ingot"}},"pattern":[" I ","###"],"result":{"item":"minecraft:oak_fence_gate"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"}},"pattern":["###","# #","#R#"],"result":{"item":"minecraft:jungle_door"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"}},"pattern":["###","# #","#R#"],"result":{"item":"minecraft:red_glazed_terracotta"},"type":"minecraft:crafting_shaped"}

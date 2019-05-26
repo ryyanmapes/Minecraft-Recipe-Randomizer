@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:blue_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:mojang_banner_pattern"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:blue_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:cauldron"},"type":"minecraft:crafting_shaped"}

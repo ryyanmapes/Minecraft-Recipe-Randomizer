@@ -1,1 +1,1 @@
-{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:cyan_stained_glass"}},"pattern":["###","###"],"result":{"count":16,"item":"minecraft:spruce_stairs"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:cyan_stained_glass"}},"pattern":["###","###"],"result":{"count":16,"item":"minecraft:cracked_stone_bricks"},"type":"minecraft:crafting_shaped"}
