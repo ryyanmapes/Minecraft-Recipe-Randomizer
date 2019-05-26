@@ -9,4 +9,4 @@ Currently has no protection against impossible seeds
 INSTRUCTIONS:
 - Run the Rust script
 - Take the revised Recipes folder and use it to replace the Recipes folder in the included datapack-base
-- Put this in your datapacks folder, enable it in-game, and disable the vanilla resource pack
+- Put the datapack-base folder in your datapacks folder, enable it in-game, and disable the vanilla resource pack
