@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:cut_red_sandstone"},"result":"minecraft:lapis_lazuli","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cut_red_sandstone"
+  },
+  "result": "minecraft:cut_red_sandstone_slab",
+  "count": 2
+}

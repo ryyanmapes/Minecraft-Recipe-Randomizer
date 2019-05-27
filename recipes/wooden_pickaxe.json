@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"tag":"minecraft:planks"}},"pattern":["XXX"," # "," # "],"result":{"item":"minecraft:mossy_stone_brick_stairs"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_pickaxe"
+  }
+}

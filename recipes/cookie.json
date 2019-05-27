@@ -1,1 +1,18 @@
-{"key":{"#":{"item":"minecraft:wheat"},"X":{"item":"minecraft:cocoa_beans"}},"pattern":["#X#"],"result":{"count":8,"item":"minecraft:purple_glazed_terracotta"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    },
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 8
+  }
+}

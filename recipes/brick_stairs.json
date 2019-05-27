@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:bricks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:stone_pickaxe"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:brick_stairs",
+    "count": 4
+  }
+}

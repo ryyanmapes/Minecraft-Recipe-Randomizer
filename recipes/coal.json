@@ -1,1 +1,12 @@
-{"ingredients":[{"item":"minecraft:coal_block"}],"result":{"count":9,"item":"minecraft:gray_glazed_terracotta"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:coal",
+    "count": 9
+  }
+}

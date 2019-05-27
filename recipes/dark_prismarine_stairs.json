@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:dark_prismarine"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:orange_bed"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_prismarine"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine_stairs",
+    "count": 4
+  }
+}

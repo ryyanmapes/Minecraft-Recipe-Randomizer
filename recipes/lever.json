@@ -1,1 +1,18 @@
-{"key":{"#":{"item":"minecraft:cobblestone"},"X":{"item":"minecraft:stick"}},"pattern":["X","#"],"result":{"item":"minecraft:andesite_wall"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:lever"
+  }
+}

@@ -1,1 +1,17 @@
-{"group":"bark","key":{"#":{"item":"minecraft:jungle_log"}},"pattern":["##","##"],"result":{"count":3,"item":"minecraft:iron_ingot"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_wood",
+    "count": 3
+  }
+}

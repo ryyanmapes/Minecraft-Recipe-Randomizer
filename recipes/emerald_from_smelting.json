@@ -1,1 +1,9 @@
-{"cookingtime":200,"experience":1.0,"ingredient":{"item":"minecraft:emerald_ore"},"result":"minecraft:diamond_boots","type":"minecraft:smelting"}
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:emerald_ore"
+  },
+  "result": "minecraft:emerald",
+  "experience": 1.0,
+  "cookingtime": 200
+}

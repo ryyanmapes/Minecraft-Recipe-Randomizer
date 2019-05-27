@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:end_stone_bricks"}},"pattern":["###","###"],"result":{"count":6,"item":"minecraft:sugar"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_stone_brick_wall",
+    "count": 6
+  }
+}

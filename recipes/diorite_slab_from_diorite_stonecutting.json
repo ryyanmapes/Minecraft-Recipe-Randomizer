@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:diorite"},"result":"minecraft:repeater","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "minecraft:diorite_slab",
+  "count": 2
+}

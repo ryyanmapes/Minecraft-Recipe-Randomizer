@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:red_sandstone"},"result":"minecraft:wheat","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
+  },
+  "result": "minecraft:chiseled_red_sandstone",
+  "count": 1
+}

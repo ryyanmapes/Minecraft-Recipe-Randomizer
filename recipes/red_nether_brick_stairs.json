@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:red_nether_bricks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:orange_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_nether_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_nether_brick_stairs",
+    "count": 4
+  }
+}

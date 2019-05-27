@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["X","X","#"],"result":{"item":"minecraft:prismarine_bricks"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_sword"
+  }
+}

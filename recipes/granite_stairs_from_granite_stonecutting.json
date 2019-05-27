@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:granite"},"result":"minecraft:light_blue_carpet","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:granite"
+  },
+  "result": "minecraft:granite_stairs",
+  "count": 1
+}

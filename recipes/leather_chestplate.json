@@ -1,1 +1,16 @@
-{"key":{"X":{"item":"minecraft:leather"}},"pattern":["X X","XXX","XXX"],"result":{"item":"minecraft:nether_brick"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_chestplate"
+  }
+}

@@ -1,1 +1,15 @@
-{"group":"wool","ingredients":[{"item":"minecraft:light_gray_dye"},{"item":"minecraft:white_wool"}],"result":{"item":"minecraft:turtle_helmet"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_wool"
+  }
+}

@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:string"}},"pattern":["##","##"],"result":{"item":"minecraft:jukebox"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_wool"
+  }
+}

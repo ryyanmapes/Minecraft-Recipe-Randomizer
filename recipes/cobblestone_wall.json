@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:cobblestone"}},"pattern":["###","###"],"result":{"count":6,"item":"minecraft:magma_block"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone_wall",
+    "count": 6
+  }
+}

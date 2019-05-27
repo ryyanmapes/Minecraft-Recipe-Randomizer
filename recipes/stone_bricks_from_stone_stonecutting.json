@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:stone"},"result":"minecraft:dark_oak_trapdoor","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "result": "minecraft:stone_bricks",
+  "count": 1
+}

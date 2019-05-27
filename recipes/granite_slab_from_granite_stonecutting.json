@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:granite"},"result":"minecraft:nether_brick_slab","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:granite"
+  },
+  "result": "minecraft:granite_slab",
+  "count": 2
+}

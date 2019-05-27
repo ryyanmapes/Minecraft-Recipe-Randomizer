@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:polished_andesite"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:anvil"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_andesite_stairs",
+    "count": 4
+  }
+}

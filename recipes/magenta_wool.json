@@ -1,1 +1,15 @@
-{"group":"wool","ingredients":[{"item":"minecraft:magenta_dye"},{"item":"minecraft:white_wool"}],"result":{"item":"minecraft:brick_wall"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool"
+  }
+}

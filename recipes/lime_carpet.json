@@ -1,1 +1,16 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:lime_wool"}},"pattern":["##"],"result":{"count":3,"item":"minecraft:brick_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carpet",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_carpet",
+    "count": 3
+  }
+}

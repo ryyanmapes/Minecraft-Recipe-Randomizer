@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:quartz"}},"pattern":["##","##"],"result":{"item":"minecraft:end_stone_brick_stairs"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz_block"
+  }
+}

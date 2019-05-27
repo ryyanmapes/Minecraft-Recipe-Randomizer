@@ -1,1 +1,16 @@
-{"group":"wooden_slab","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["###"],"result":{"count":6,"item":"minecraft:andesite"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_slab",
+    "count": 6
+  }
+}

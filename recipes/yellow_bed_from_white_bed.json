@@ -1,1 +1,15 @@
-{"group":"dyed_bed","ingredients":[{"item":"minecraft:white_bed"},{"item":"minecraft:yellow_dye"}],"result":{"item":"minecraft:clay"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dyed_bed",
+  "ingredients": [
+    {
+      "item": "minecraft:white_bed"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_bed"
+  }
+}

@@ -1,1 +1,17 @@
-{"ingredients":[{"item":"minecraft:pumpkin"},{"item":"minecraft:sugar"},{"item":"minecraft:egg"}],"result":{"item":"minecraft:magenta_dye"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_pie"
+  }
+}

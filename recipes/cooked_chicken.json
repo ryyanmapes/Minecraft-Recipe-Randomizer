@@ -1,1 +1,9 @@
-{"cookingtime":200,"experience":0.35,"ingredient":{"item":"minecraft:chicken"},"result":"minecraft:ender_chest","type":"minecraft:smelting"}
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:chicken"
+  },
+  "result": "minecraft:cooked_chicken",
+  "experience": 0.35,
+  "cookingtime": 200
+}

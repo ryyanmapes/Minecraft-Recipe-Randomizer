@@ -1,1 +1,21 @@
-{"key":{"#":{"item":"minecraft:redstone_torch"},"I":{"item":"minecraft:stone"},"X":{"item":"minecraft:redstone"}},"pattern":["#X#","III"],"result":{"item":"minecraft:smooth_red_sandstone_stairs"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater"
+  }
+}

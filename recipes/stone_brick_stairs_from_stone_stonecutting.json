@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:stone"},"result":"minecraft:cut_red_sandstone","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:stone"
+  },
+  "result": "minecraft:stone_brick_stairs",
+  "count": 1
+}

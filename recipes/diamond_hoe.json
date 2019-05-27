@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:diamond"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:gray_carpet"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_hoe"
+  }
+}

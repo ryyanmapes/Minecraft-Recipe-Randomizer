@@ -1,1 +1,21 @@
-{"group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:pink_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:brown_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_terracotta",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "X": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_terracotta",
+    "count": 8
+  }
+}

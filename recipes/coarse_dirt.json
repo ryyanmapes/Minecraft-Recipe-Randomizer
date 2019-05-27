@@ -1,1 +1,19 @@
-{"key":{"D":{"item":"minecraft:dirt"},"G":{"item":"minecraft:gravel"}},"pattern":["DG","GD"],"result":{"count":4,"item":"minecraft:andesite_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 4
+  }
+}

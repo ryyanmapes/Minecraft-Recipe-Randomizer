@@ -1,1 +1,14 @@
-{"ingredients":[{"item":"minecraft:stone_bricks"},{"item":"minecraft:vine"}],"result":{"item":"minecraft:dark_oak_boat"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks"
+  }
+}

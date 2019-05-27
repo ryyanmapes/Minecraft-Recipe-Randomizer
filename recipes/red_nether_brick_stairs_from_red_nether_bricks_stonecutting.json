@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:red_nether_bricks"},"result":"minecraft:yellow_carpet","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:red_nether_bricks"
+  },
+  "result": "minecraft:red_nether_brick_stairs",
+  "count": 1
+}

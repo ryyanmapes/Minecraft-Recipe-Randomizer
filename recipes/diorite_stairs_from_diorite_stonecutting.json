@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:diorite"},"result":"minecraft:cobblestone_stairs","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "minecraft:diorite_stairs",
+  "count": 1
+}

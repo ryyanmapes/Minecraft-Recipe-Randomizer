@@ -1,1 +1,15 @@
-{"group":"wool","ingredients":[{"item":"minecraft:pink_dye"},{"item":"minecraft:white_wool"}],"result":{"item":"minecraft:stick"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_wool"
+  }
+}

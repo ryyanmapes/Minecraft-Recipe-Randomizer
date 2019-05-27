@@ -1,0 +1,150 @@
+{
+	"base_items": [
+		"acacia_log",
+		"allium",
+		"azure_bluet",
+		"bamboo",
+		"birch_log",
+		"blue_orchid",
+		"brown_mushroom",
+		"cactus",
+		"cornflower",
+		"creeper_head",
+		"dandelion",
+		"dark_oak_log",
+		"dark_prismarine",
+		"dirt",
+		"gravel",
+		"jungle_log",
+		"lilac",
+		"lily_of_the_valley",
+		"oak_log",
+		"orange_tulip",
+		"oxeye_daisy",
+		"peony",
+		"pink_tulip",
+		"poppy",
+		"pumpkin",
+		"red_mushroom",
+		"red_sand",
+		"red_tulip",
+		"rose_bush",
+		"spruce_log",
+		"sunflower",
+		"white_wool",
+		"apple",
+		"arrow",
+		"beef",
+		"bone",
+		"carrot",
+		"chicken",
+		"clay_ball",
+		"cocoa_beans",
+		"egg",
+		"ender_pearl",
+		"feather",
+		"flint",
+		"gunpowder",
+		"heart_of_the_sea",
+		"ink_sac",
+		"kelp",
+		"leather",
+		"melon_slice",
+		"mutton",
+		"nautilus_shell",
+		"porkchop",
+		"rabbit",
+		"rabbit_food",
+		"rabbit_hide",
+		"rotten_flesh",
+		"scute",
+		"slime_ball",
+		"spider_eye",
+		"stick",
+		"string",
+		"sugar_cane",
+		"sweet_berries"
+		
+	],
+	"fishing_rod_items": [
+		"cod",
+		"pufferfish",
+		"salmon",
+		"tropical_fish"
+		
+	],
+	"wood_pick_items": [
+		"andensite",
+		"cobblestone",
+		"diorite",
+		"granite",
+		"mossy_cobblestone",
+		"terracotta"
+	],
+	"stone_pick_items": [
+		"iron_ore",
+		"lapis_lazuli"
+	],
+	"iron_pick_items": [
+		"gold_ore",
+		"wet_sponge",
+		"diamond",
+		"emerald",
+		"prismarine_crystals",
+		"prismarine_shard",
+		"redstone"
+		
+	],
+	"nether_items": [
+		"magma_block",
+		"nether_bricks",
+		"netherrack",
+		"obsidian",
+		"soul_sand",
+		"wither_rose",
+		"blaze_rod",
+		"ghast_tear",
+		"glowstone_dust",
+		"magma_cream",
+		"quartz",
+		"nether_star",
+		"nether_wart"
+		
+	],
+	"enchantment_items": [
+		"blue_ice",
+		"coal_ore",
+		"diamond_ore",
+		"emerald_ore",
+		"glowstone",
+		"ice",
+		"melon",
+		"mycelium",
+		"nether_quartz_ore",
+		"podzol",
+		"redstone_ore",
+		"snow_block",
+		"stone",
+		"enchanted_golden_apple",
+		"lapis_ore"
+	],
+	"shears_items": [
+		"fern",
+		"vine"
+	],
+	"hoe_items": [
+		"poisonous_potato",
+		"potato",
+		"beetroot",
+		"wheat"
+	],
+	"shovel_items": [
+		"snowball"
+	],
+	"end_items": [
+		"end_stone",
+		"end_stone_bricks",
+		"chorus_fruit",
+		"shulker_shell"
+	]
+}

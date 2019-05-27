@@ -1,1 +1,15 @@
-{"group":"wool","ingredients":[{"item":"minecraft:gray_dye"},{"item":"minecraft:white_wool"}],"result":{"item":"minecraft:end_stone_brick_wall"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wool",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "item": "minecraft:white_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_wool"
+  }
+}

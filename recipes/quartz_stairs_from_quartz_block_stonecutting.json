@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:quartz_block"},"result":"minecraft:gray_stained_glass_pane","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "minecraft:quartz_stairs",
+  "count": 1
+}

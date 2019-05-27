@@ -1,1 +1,16 @@
-{"key":{"X":{"item":"minecraft:leather"}},"pattern":["X X","XXX","X X"],"result":{"item":"minecraft:smooth_red_sandstone_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_horse_armor"
+  }
+}

@@ -1,1 +1,16 @@
-{"group":"boat","key":{"#":{"item":"minecraft:jungle_planks"}},"pattern":["# #","###"],"result":{"item":"minecraft:brewing_stand"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_boat"
+  }
+}

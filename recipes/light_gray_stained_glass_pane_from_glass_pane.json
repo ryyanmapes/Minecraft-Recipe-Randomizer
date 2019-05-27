@@ -1,1 +1,21 @@
-{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:glass_pane"},"$":{"item":"minecraft:light_gray_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:iron_hoe"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "stained_glass_pane",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "$": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_stained_glass_pane",
+    "count": 8
+  }
+}

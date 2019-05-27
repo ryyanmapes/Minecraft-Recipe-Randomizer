@@ -1,1 +1,19 @@
-{"key":{"#":{"tag":"minecraft:planks"},"F":{"tag":"minecraft:wooden_fences"}},"pattern":["F F","F F","###"],"result":{"item":"minecraft:red_sandstone_stairs"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "F F",
+    "###"
+  ],
+  "key": {
+    "F": {
+      "tag": "minecraft:wooden_fences"
+    },
+    "#": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:composter"
+  }
+}

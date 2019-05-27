@@ -1,1 +1,12 @@
-{"ingredients":[{"item":"minecraft:pumpkin"}],"result":{"count":4,"item":"minecraft:stone_brick_slab"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_seeds",
+    "count": 4
+  }
+}

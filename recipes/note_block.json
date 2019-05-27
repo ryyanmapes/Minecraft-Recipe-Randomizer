@@ -1,1 +1,19 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:redstone"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:polished_diorite_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:note_block"
+  }
+}

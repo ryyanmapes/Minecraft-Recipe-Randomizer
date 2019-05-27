@@ -1,1 +1,11 @@
-{"ingredients":[{"item":"minecraft:stone"}],"result":{"item":"minecraft:white_carpet"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone_button"
+  }
+}

@@ -1,1 +1,12 @@
-{"group":"wooden_button","ingredients":[{"item":"minecraft:birch_planks"}],"result":{"item":"minecraft:fletching_table"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:birch_button"
+  }
+}

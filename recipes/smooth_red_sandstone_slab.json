@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:smooth_red_sandstone"}},"pattern":["###"],"result":{"count":6,"item":"minecraft:chiseled_stone_bricks"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_red_sandstone_slab",
+    "count": 6
+  }
+}

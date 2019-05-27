@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:coal"}},"pattern":["###","###","###"],"result":{"item":"minecraft:cyan_stained_glass"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal_block"
+  }
+}

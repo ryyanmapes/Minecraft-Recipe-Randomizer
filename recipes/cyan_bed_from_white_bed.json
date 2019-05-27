@@ -1,1 +1,15 @@
-{"group":"dyed_bed","ingredients":[{"item":"minecraft:white_bed"},{"item":"minecraft:cyan_dye"}],"result":{"item":"minecraft:red_stained_glass_pane"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dyed_bed",
+  "ingredients": [
+    {
+      "item": "minecraft:white_bed"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_bed"
+  }
+}

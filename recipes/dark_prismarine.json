@@ -1,1 +1,19 @@
-{"key":{"I":{"item":"minecraft:ink_sac"},"S":{"item":"minecraft:prismarine_shard"}},"pattern":["SSS","SIS","SSS"],"result":{"item":"minecraft:smithing_table"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "I": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine"
+  }
+}

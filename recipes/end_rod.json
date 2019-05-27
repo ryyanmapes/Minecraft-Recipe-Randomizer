@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:popped_chorus_fruit"},"/":{"item":"minecraft:blaze_rod"}},"pattern":["/","#"],"result":{"count":4,"item":"minecraft:brown_banner"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "/",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_rod",
+    "count": 4
+  }
+}

@@ -1,1 +1,16 @@
-{"group":"boat","key":{"#":{"item":"minecraft:spruce_planks"}},"pattern":["# #","###"],"result":{"item":"minecraft:red_bed"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "boat",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_boat"
+  }
+}

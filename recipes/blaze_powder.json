@@ -1,1 +1,12 @@
-{"ingredients":[{"item":"minecraft:blaze_rod"}],"result":{"count":2,"item":"minecraft:acacia_sign"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blaze_powder",
+    "count": 2
+  }
+}

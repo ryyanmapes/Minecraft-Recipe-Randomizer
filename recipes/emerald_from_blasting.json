@@ -1,1 +1,9 @@
-{"cookingtime":100,"experience":1.0,"ingredient":{"item":"minecraft:emerald_ore"},"result":"minecraft:light_blue_stained_glass_pane","type":"minecraft:blasting"}
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:emerald_ore"
+  },
+  "result": "minecraft:emerald",
+  "experience": 1.0,
+  "cookingtime": 100
+}

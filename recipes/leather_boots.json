@@ -1,1 +1,15 @@
-{"key":{"X":{"item":"minecraft:leather"}},"pattern":["X X","X X"],"result":{"item":"minecraft:acacia_trapdoor"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_boots"
+  }
+}

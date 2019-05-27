@@ -1,1 +1,17 @@
-{"ingredients":[{"item":"minecraft:book"},{"item":"minecraft:ink_sac"},{"item":"minecraft:feather"}],"result":{"item":"minecraft:baked_potato"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book"
+  }
+}

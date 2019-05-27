@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:quartz_block"},"result":"minecraft:cobblestone_wall","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": "minecraft:quartz_pillar",
+  "count": 1
+}

@@ -1,1 +1,16 @@
-{"key":{"F":{"item":"minecraft:popped_chorus_fruit"}},"pattern":["FF","FF"],"result":{"count":4,"item":"minecraft:green_stained_glass_pane"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FF",
+    "FF"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:popped_chorus_fruit"
+    }
+  },
+  "result": {
+    "item": "minecraft:purpur_block",
+    "count": 4
+  }
+}

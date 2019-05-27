@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:diorite"},"result":"minecraft:bucket","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+  "result": "minecraft:diorite_wall",
+  "count": 1
+}

@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:prismarine_bricks"},"result":"minecraft:red_sandstone","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:prismarine_bricks"
+  },
+  "result": "minecraft:prismarine_brick_slab",
+  "count": 2
+}

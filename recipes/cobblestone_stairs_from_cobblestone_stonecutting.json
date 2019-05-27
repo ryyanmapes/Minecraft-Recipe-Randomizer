@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:cobblestone"},"result":"minecraft:diamond_hoe","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": "minecraft:cobblestone_stairs",
+  "count": 1
+}

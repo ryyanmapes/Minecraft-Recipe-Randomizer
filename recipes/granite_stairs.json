@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:granite"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:shears"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "minecraft:granite_stairs",
+    "count": 4
+  }
+}

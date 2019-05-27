@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:iron_ingot"}},"pattern":["X","X","#"],"result":{"item":"minecraft:note_block"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_sword"
+  }
+}

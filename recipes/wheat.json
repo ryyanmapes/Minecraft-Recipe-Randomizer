@@ -1,1 +1,12 @@
-{"ingredients":[{"item":"minecraft:hay_block"}],"result":{"count":9,"item":"minecraft:dark_oak_wood"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:hay_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wheat",
+    "count": 9
+  }
+}

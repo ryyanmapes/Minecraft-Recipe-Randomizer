@@ -1,1 +1,18 @@
-{"key":{"A":{"item":"minecraft:hopper"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:cooked_porkchop"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:hopper"
+    },
+    "B": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper_minecart"
+  }
+}

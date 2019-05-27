@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:prismarine"},"result":"minecraft:smooth_sandstone_stairs","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:prismarine"
+  },
+  "result": "minecraft:prismarine_stairs",
+  "count": 1
+}

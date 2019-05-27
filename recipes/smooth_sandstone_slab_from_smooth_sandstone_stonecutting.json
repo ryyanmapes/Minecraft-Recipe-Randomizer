@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:smooth_sandstone"},"result":"minecraft:armor_stand","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_sandstone"
+  },
+  "result": "minecraft:smooth_sandstone_slab",
+  "count": 2
+}

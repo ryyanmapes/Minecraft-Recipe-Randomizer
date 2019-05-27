@@ -1,1 +1,19 @@
-{"group":"bed","key":{"#":{"item":"minecraft:green_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:cut_red_sandstone"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bed",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_wool"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_bed"
+  }
+}

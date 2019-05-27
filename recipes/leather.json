@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:rabbit_hide"}},"pattern":["##","##"],"result":{"item":"minecraft:dark_prismarine"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather"
+  }
+}

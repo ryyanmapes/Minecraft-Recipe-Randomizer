@@ -1,1 +1,18 @@
-{"group":"wooden_stairs","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:dark_prismarine_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_stairs",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_stairs",
+    "count": 4
+  }
+}

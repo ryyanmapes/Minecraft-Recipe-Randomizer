@@ -1,1 +1,20 @@
-{"group":"wooden_fence","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:jungle_planks"}},"pattern":["W#W","W#W"],"result":{"count":3,"item":"minecraft:polished_andesite"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "W": {
+      "item": "minecraft:jungle_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence",
+    "count": 3
+  }
+}

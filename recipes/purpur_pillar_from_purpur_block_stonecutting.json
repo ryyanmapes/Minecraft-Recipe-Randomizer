@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:purpur_block"},"result":"minecraft:purple_concrete_powder","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:purpur_block"
+  },
+  "result": "minecraft:purpur_pillar",
+  "count": 1
+}

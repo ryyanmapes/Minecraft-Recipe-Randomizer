@@ -1,1 +1,12 @@
-{"group":"pink_dye","ingredients":[{"item":"minecraft:pink_tulip"}],"result":{"item":"minecraft:cooked_rabbit"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "pink_dye",
+  "ingredients": [
+    {
+      "item": "minecraft:pink_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_dye"
+  }
+}

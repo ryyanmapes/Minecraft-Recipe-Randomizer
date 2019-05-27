@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:bricks"},"result":"minecraft:scaffolding","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bricks"
+  },
+  "result": "minecraft:brick_wall",
+  "count": 1
+}

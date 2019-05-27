@@ -1,1 +1,37 @@
-{"group":"concrete_powder","ingredients":[{"item":"minecraft:gray_dye"},{"item":"minecraft:sand"},{"item":"minecraft:sand"},{"item":"minecraft:sand"},{"item":"minecraft:sand"},{"item":"minecraft:gravel"},{"item":"minecraft:gravel"},{"item":"minecraft:gravel"},{"item":"minecraft:gravel"}],"result":{"count":8,"item":"minecraft:lime_bed"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "concrete_powder",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_dye"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 8
+  }
+}

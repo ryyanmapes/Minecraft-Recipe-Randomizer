@@ -1,1 +1,16 @@
-{"key":{"X":{"item":"minecraft:diamond"}},"pattern":["XXX","X X","X X"],"result":{"item":"minecraft:red_dye"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_leggings"
+  }
+}

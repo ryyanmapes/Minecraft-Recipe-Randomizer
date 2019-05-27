@@ -1,1 +1,22 @@
-{"key":{"#":{"item":"minecraft:cobblestone"},"R":{"item":"minecraft:redstone"},"X":{"item":"minecraft:bow"}},"pattern":["###","#X#","#R#"],"result":{"item":"minecraft:writable_book"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:bow"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser"
+  }
+}

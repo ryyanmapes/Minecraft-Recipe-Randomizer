@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:stick"}},"pattern":["# #","###","# #"],"result":{"count":3,"item":"minecraft:stone_shovel"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:ladder",
+    "count": 3
+  }
+}

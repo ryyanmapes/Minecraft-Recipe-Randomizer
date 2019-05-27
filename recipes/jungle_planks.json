@@ -1,1 +1,13 @@
-{"group":"planks","ingredients":[{"tag":"minecraft:jungle_logs"}],"result":{"count":4,"item":"minecraft:activator_rail"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    {
+      "tag": "minecraft:jungle_logs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_planks",
+    "count": 4
+  }
+}

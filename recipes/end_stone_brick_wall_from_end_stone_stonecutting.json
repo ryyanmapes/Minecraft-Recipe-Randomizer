@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:end_stone"},"result":"minecraft:iron_boots","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:end_stone"
+  },
+  "result": "minecraft:end_stone_brick_wall",
+  "count": 1
+}

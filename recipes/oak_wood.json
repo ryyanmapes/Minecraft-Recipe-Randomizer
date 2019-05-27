@@ -1,1 +1,17 @@
-{"group":"bark","key":{"#":{"item":"minecraft:oak_log"}},"pattern":["##","##"],"result":{"count":3,"item":"minecraft:lime_stained_glass_pane"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_wood",
+    "count": 3
+  }
+}

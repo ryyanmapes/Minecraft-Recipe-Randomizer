@@ -1,1 +1,23 @@
-{"key":{"#":[{"item":"minecraft:chiseled_quartz_block"},{"item":"minecraft:quartz_block"},{"item":"minecraft:quartz_pillar"}]},"pattern":["###"],"result":{"count":6,"item":"minecraft:hay_block"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": [
+      {
+        "item": "minecraft:chiseled_quartz_block"
+      },
+      {
+        "item": "minecraft:quartz_block"
+      },
+      {
+        "item": "minecraft:quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:quartz_slab",
+    "count": 6
+  }
+}

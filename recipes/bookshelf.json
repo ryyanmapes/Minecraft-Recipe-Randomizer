@@ -1,1 +1,19 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:light_gray_carpet"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "X": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:bookshelf"
+  }
+}

@@ -1,1 +1,18 @@
-{"group":"wooden_door","key":{"#":{"item":"minecraft:spruce_planks"}},"pattern":["##","##","##"],"result":{"count":3,"item":"minecraft:enchanting_table"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_door",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_door",
+    "count": 3
+  }
+}

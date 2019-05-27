@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:smooth_quartz"}},"pattern":["###"],"result":{"count":6,"item":"minecraft:diamond_block"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:smooth_quartz_slab",
+    "count": 6
+  }
+}

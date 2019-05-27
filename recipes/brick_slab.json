@@ -1,1 +1,15 @@
-{"key":{"#":{"item":"minecraft:bricks"}},"pattern":["###"],"result":{"count":6,"item":"minecraft:spruce_fence"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:brick_slab",
+    "count": 6
+  }
+}

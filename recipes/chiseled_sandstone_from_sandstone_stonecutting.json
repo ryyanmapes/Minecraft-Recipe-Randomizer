@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:sandstone"},"result":"minecraft:bowl","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:sandstone"
+  },
+  "result": "minecraft:chiseled_sandstone",
+  "count": 1
+}

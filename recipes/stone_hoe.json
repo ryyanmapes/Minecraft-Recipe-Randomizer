@@ -1,1 +1,19 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:cooked_chicken"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_hoe"
+  }
+}

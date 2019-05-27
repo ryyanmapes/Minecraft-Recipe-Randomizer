@@ -1,1 +1,24 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":[{"item":"minecraft:coal"},{"item":"minecraft:charcoal"}]},"pattern":["X","#"],"result":{"count":4,"item":"minecraft:charcoal"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:torch",
+    "count": 4
+  }
+}

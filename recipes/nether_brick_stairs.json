@@ -1,1 +1,17 @@
-{"key":{"#":{"item":"minecraft:nether_bricks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:red_carpet"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_brick_stairs",
+    "count": 4
+  }
+}

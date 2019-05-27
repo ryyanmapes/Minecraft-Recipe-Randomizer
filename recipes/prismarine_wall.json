@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:prismarine"}},"pattern":["###","###"],"result":{"count":6,"item":"minecraft:purple_stained_glass"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_wall",
+    "count": 6
+  }
+}

@@ -1,1 +1,8 @@
-{"count":1,"ingredient":{"item":"minecraft:red_sandstone"},"result":"minecraft:daylight_detector","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
+  },
+  "result": "minecraft:red_sandstone_stairs",
+  "count": 1
+}

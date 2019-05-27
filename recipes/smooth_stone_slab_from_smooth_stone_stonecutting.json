@@ -1,1 +1,8 @@
-{"count":2,"ingredient":{"item":"minecraft:smooth_stone"},"result":"minecraft:furnace_minecart","type":"minecraft:stonecutting"}
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:smooth_stone"
+  },
+  "result": "minecraft:smooth_stone_slab",
+  "count": 2
+}

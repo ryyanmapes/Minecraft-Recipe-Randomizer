@@ -1,1 +1,13 @@
-{"group":"gold_ingot","ingredients":[{"item":"minecraft:gold_block"}],"result":{"count":9,"item":"minecraft:grindstone"},"type":"minecraft:crafting_shapeless"}
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "gold_ingot",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 9
+  }
+}

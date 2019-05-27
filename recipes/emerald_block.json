@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:emerald"}},"pattern":["###","###","###"],"result":{"item":"minecraft:iron_sword"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald_block"
+  }
+}

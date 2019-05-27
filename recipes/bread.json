@@ -1,1 +1,14 @@
-{"key":{"#":{"item":"minecraft:wheat"}},"pattern":["###"],"result":{"item":"minecraft:polished_diorite_slab"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread"
+  }
+}

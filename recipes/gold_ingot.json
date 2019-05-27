@@ -1,1 +1,9 @@
-{"cookingtime":200,"experience":1.0,"ingredient":{"item":"minecraft:gold_ore"},"result":"minecraft:light_gray_wool","type":"minecraft:smelting"}
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:gold_ore"
+  },
+  "result": "minecraft:gold_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

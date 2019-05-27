@@ -1,1 +1,9 @@
-{"cookingtime":200,"experience":0.2,"ingredient":{"item":"minecraft:nether_quartz_ore"},"result":"minecraft:mossy_stone_brick_wall","type":"minecraft:smelting"}
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:nether_quartz_ore"
+  },
+  "result": "minecraft:quartz",
+  "experience": 0.2,
+  "cookingtime": 200
+}

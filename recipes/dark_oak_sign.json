@@ -1,1 +1,20 @@
-{"key":{"#":{"item":"minecraft:dark_oak_planks"},"X":{"item":"minecraft:stick"}},"pattern":["###","###"," X "],"result":{"count":3,"item":"minecraft:polished_diorite_stairs"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_sign",
+    "count": 3
+  }
+}

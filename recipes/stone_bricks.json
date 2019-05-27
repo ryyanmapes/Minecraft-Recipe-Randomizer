@@ -1,1 +1,16 @@
-{"key":{"#":{"item":"minecraft:stone"}},"pattern":["##","##"],"result":{"count":4,"item":"minecraft:black_wool"},"type":"minecraft:crafting_shaped"}
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_bricks",
+    "count": 4
+  }
+}
