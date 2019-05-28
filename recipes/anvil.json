@@ -1,1 +1,1 @@
-{"key":{"I":{"item":"minecraft:iron_block"},"i":{"item":"minecraft:iron_ingot"}},"pattern":["III"," i ","iii"],"result":{"item":"minecraft:quartz_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"I":{"item":"minecraft:iron_block"},"i":{"item":"minecraft:iron_ingot"}},"pattern":["III"," i ","iii"],"result":{"item":"minecraft:charcoal"},"type":"minecraft:crafting_shaped"}

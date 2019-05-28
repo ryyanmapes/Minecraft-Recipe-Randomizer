@@ -1,15 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:magma_cream"
-    }
-  },
-  "result": {
-    "item": "minecraft:magma_block"
-  }
-}
+{"key":{"#":{"item":"minecraft:magma_cream"}},"pattern":["##","##"],"result":{"item":"minecraft:sticky_piston"},"type":"minecraft:crafting_shaped"}

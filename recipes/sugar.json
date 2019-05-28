@@ -1,11 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:sugar_cane"
-    }
-  ],
-  "result": {
-    "item": "minecraft:sugar"
-  }
-}
+{"ingredients":[{"item":"minecraft:sugar_cane"}],"result":{"item":"minecraft:red_nether_brick_wall"},"type":"minecraft:crafting_shapeless"}

@@ -1,9 +1,1 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "minecraft:gold_ore"
-  },
-  "result": "minecraft:gold_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}
+{"cookingtime":200,"experience":1.0,"ingredient":{"item":"minecraft:gold_ore"},"result":"minecraft:granite_wall","type":"minecraft:smelting"}

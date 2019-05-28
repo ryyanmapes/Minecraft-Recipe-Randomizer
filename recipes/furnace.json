@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "# #",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:cobblestone"
-    }
-  },
-  "result": {
-    "item": "minecraft:furnace"
-  }
-}
+{"key":{"#":{"item":"minecraft:cobblestone"}},"pattern":["###","# #","###"],"result":{"item":"minecraft:orange_dye"},"type":"minecraft:crafting_shaped"}

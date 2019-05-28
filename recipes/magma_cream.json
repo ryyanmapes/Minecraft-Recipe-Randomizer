@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:blaze_powder"
-    },
-    {
-      "item": "minecraft:slime_ball"
-    }
-  ],
-  "result": {
-    "item": "minecraft:magma_cream"
-  }
-}
+{"ingredients":[{"item":"minecraft:blaze_powder"},{"item":"minecraft:slime_ball"}],"result":{"item":"minecraft:yellow_stained_glass_pane"},"type":"minecraft:crafting_shapeless"}

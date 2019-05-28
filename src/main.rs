@@ -32,6 +32,7 @@ struct Recipe {
 
 
 fn main() {
+
 	let mut rng = rand::thread_rng();
 
 	// part 1: get all recipe files from './recipes'
@@ -67,44 +68,55 @@ fn main() {
 	loop {
 		find_craftable_recipes(&unlocked_items, &mut craftable_recipes, &mut not_craftable_recipes, &tag_bindings);
 
-		if (craftable_recipes.len() == 0) {
+		if (rng.gen_range(0,2) == 1 || craftable_recipes.len() == 0) {
 			let mut random_num_3: usize = 0;
-			let mut iterations: i32 = 0;
+			let mut i = 0;
+			let mut skip_flag = false;
 			loop {
 				random_num_3 = rng.gen_range(0, scrambled_recipes.len());
 
 				let result = &scrambled_recipes[random_num_3].result;
 
-				if dead_end_products.contains(&result) {
+				if safe_to_remove(&unlocked_items, &result, &craftable_recipes, &tag_bindings) {
+					//println!("{:?}", result);
 					break;
 				}
 
-				iterations += 1;
-				if iterations > 10 {
-					random_num_3 = scrambled_recipes.len()-1;
+				if i > 10 {
+					if craftable_recipes.len() == 0 {
+						panic!("this is badddd");
+					}
+					skip_flag = true;
 					break;
-					//panic!("I think we have a problem... {:?}", unlocked_items)
 				}
+
+				i += 1;
 			}
 
-			let removed_recipe = scrambled_recipes.remove(random_num_3);
-			find_and_remove(&mut unlocked_items, &removed_recipe.result);
-			remaining_products.push(removed_recipe.result.clone());
-			craftable_recipes.push(removed_recipe);
+			if !skip_flag {
 
-			//println!("Rerouting...");
-			//panic!("ahh bad seeeed! {:?}", scrambled_recipes.len());
+				let removed_recipe = scrambled_recipes.remove(random_num_3);
+				find_and_remove(&mut unlocked_items, &removed_recipe.result);
+				remaining_products.push(removed_recipe.result.clone());
+				craftable_recipes.push(removed_recipe);
+			}
+
 		}
 
 		let random_num_1: usize = rng.gen_range(0, craftable_recipes.len());
 		let random_num_2: usize = rng.gen_range(0, remaining_products.len());
 		
 		let chosen_item: String = remaining_products.remove(random_num_2).to_string();
-		println!("{:?}", chosen_item);
+
+		let debug_files: Vec<String> = not_craftable_recipes.clone().into_iter().map(|r| {r.file.to_string()}).collect();
+		//println!("{:?} {:?}", debug_files, remaining_products.len());
+
 		unlock_items_and_check(&mut unlocked_items, &chosen_item, &age_groups);
-		//println!("{:?} -> {:?} ({:?})", craftable_recipes[random_num_1].file, chosen_item, craftable_recipes.len());
+
 		craftable_recipes[random_num_1].result = chosen_item;
 		scrambled_recipes.push(craftable_recipes.remove(random_num_1));
+
+		
 		
 		if (remaining_products.len() == 0) {
 			break;
@@ -169,13 +181,35 @@ fn main() {
 
 }
 
+fn safe_to_remove (unlocked_items: &Vec<String>, item_to_remove: &String, craftable_recipes: &Vec<Recipe>, tags: &HashMap<String, LogicDependency>) -> bool {
+	if get_crucial_items().contains(item_to_remove) {
+		return false;
+	}
+
+	let mut new_unlocked_items = unlocked_items.clone();
+	find_and_remove(&mut new_unlocked_items, item_to_remove);
+
+	for n in (0..craftable_recipes.len()).rev() {
+		let recipe = &craftable_recipes[n];
+
+		if !rec_solve_logic(&recipe.ingredients, &new_unlocked_items, tags) {
+
+			return false;
+
+		}
+	}
+
+	true
+
+}
+
 fn get_result_from_file(file: &PathBuf, recipes: &Vec<Recipe> ) -> String {
 
 	let mut filename = file.file_name().unwrap().to_str().unwrap().to_string();
 	//filename = filename[1..filename.len()-2].to_string();
 
 	for r in recipes {
-		println!("{:?} {:?}", r.file, filename);
+		//println!("{:?} {:?}", r.file, filename);
 		if r.file == filename {
 			return r.result.to_string();
 		}
@@ -188,6 +222,7 @@ fn find_and_remove(items: &mut Vec<String>, to_remove: &str) {
 	for n in (0..items.len()).rev() {
 		if items[n] == to_remove {
 			items.remove(n);
+			return;
 		}
 	}
 }
@@ -236,26 +271,54 @@ fn rec_get_all_referenced_recipes (logic: &LogicDependency, tags: &HashMap<Strin
 	}
 }
 
-fn unlock_items_and_check (unlocked_items: &mut Vec<String>, chosen_item: &str, age_groups: &HashMap<String, Vec<String>>) {
+// this is awful, i know
+fn get_crucial_items() -> Vec<String> {
+	let mut v: Vec<String> = Vec::new();
+	v.push("minecraft:fishing_rod".to_string());
+	v.push("minecraft:wooden_pickaxe".to_string()); 
+	v.push("minecraft:stone_pickaxe".to_string());
+	v.push("minecraft:iron_pickaxe".to_string());
+	v.push("minecraft:diamond_pickaxe".to_string());
+	v.push("minecraft:flint_and_steel".to_string());
+	v.push("minecraft:fire_charge".to_string());
+	v.push("minecraft:enchanting_table".to_string()); 
+	v.push("minecraft:bookshelf".to_string());
+	v.push("minecraft:shears".to_string()) ;
+	v.push("minecraft:wooden_hoe".to_string());
+	v.push("minecraft:stone_hoe".to_string()); 
+	v.push("minecraft:gold_hoe".to_string());
+	v.push("minecraft:iron_hoe".to_string());
+	v.push("minecraft:diamond_hoe".to_string());
+	v.push("minecraft:wooden_shovel".to_string());
+	v.push("minecraft:stone_shovel".to_string());
+	v.push("minecraft:gold_shovel".to_string()) ;
+	v.push("minecraft:iron_shovel".to_string());
+	v.push("minecraft:diamond_shovel".to_string());
+	v.push("minecraft:ender_eye".to_string());
+	v.push("minecraft:bucket".to_string());
+	v
+}
 
-	if unlock_item(unlocked_items, chosen_item) {
+fn unlock_items_and_check (unlocked_items: &mut Vec<String>, chosen_item: &String, age_groups: &HashMap<String, Vec<String>>) {
+
+	if unlock_item(unlocked_items, chosen_item) && get_crucial_items().contains(chosen_item) {
 
 		if unlocked_items.contains(&"minecraft:fishing_rod".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("fishing_rod_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:wooden_pickaxe".to_string()) {
+		if unlocked_items.contains(&"minecraft:wooden_pickaxe".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:stone_pickaxe".to_string()) || unlocked_items.contains(&"minecraft:gold_pickaxe".to_string()) {
+		if unlocked_items.contains(&"minecraft:stone_pickaxe".to_string()) || unlocked_items.contains(&"minecraft:gold_pickaxe".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
 			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:iron_pickaxe".to_string()) {
+		if unlocked_items.contains(&"minecraft:iron_pickaxe".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
 			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
 			unlock_all_items(unlocked_items, age_groups.get("iron_pick_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:diamond_pickaxe".to_string()) {
+		if unlocked_items.contains(&"minecraft:diamond_pickaxe".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
 			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
 			unlock_all_items(unlocked_items, age_groups.get("iron_pick_items").unwrap());
@@ -263,26 +326,28 @@ fn unlock_items_and_check (unlocked_items: &mut Vec<String>, chosen_item: &str, 
 				unlock_all_items(unlocked_items, age_groups.get("nether_items").unwrap());
 			}
 		}
-		else if unlocked_items.contains(&"minecraft:enchanting_table".to_string()) && unlocked_items.contains(&"minecraft:bookshelf".to_string()) {
+		if unlocked_items.contains(&"minecraft:enchanting_table".to_string()) && unlocked_items.contains(&"minecraft:bookshelf".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("enchantment_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:shears".to_string()) {
+		if unlocked_items.contains(&"minecraft:shears".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("shears_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:wooden_hoe".to_string()) || unlocked_items.contains(&"minecraft:stone_hoe".to_string())
+		if unlocked_items.contains(&"minecraft:wooden_hoe".to_string()) || unlocked_items.contains(&"minecraft:stone_hoe".to_string())
 			|| unlocked_items.contains(&"minecraft:gold_hoe".to_string()) || unlocked_items.contains(&"minecraft:iron_hoe".to_string())
 			|| unlocked_items.contains(&"minecraft:diamond_hoe".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("hoe_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:wooden_shovel".to_string()) || unlocked_items.contains(&"minecraft:stone_shovel".to_string())
+		if unlocked_items.contains(&"minecraft:wooden_shovel".to_string()) || unlocked_items.contains(&"minecraft:stone_shovel".to_string())
 			|| unlocked_items.contains(&"minecraft:gold_shovel".to_string()) || unlocked_items.contains(&"minecraft:iron_shovel".to_string())
 			|| unlocked_items.contains(&"minecraft:diamond_shovel".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("shovel_items").unwrap());
 		}
-		else if unlocked_items.contains(&"minecraft:ender_eye".to_string()) {
+		if unlocked_items.contains(&"minecraft:ender_eye".to_string()) {
 			unlock_all_items(unlocked_items, age_groups.get("end_items").unwrap());
 		}
-
+		if unlocked_items.contains(&"minecraft:bucket".to_string()) {
+			unlock_all_items(unlocked_items, age_groups.get("bucket_items").unwrap());
+		}
 	}
 }
 
@@ -296,9 +361,9 @@ fn unlock_all_items (unlocked_items: &mut Vec<String>, chosen_items: &Vec<String
 
 fn unlock_item (unlocked_items: &mut Vec<String>, chosen_item: &str) -> bool {
 
-	if unlocked_items.contains(&chosen_item.to_string()) {
-		return false;
-	}
+	//if unlocked_items.contains(&chosen_item.to_string()) {
+	//	return false;
+	//}
 
 	unlocked_items.push(chosen_item.to_string());
 
@@ -340,7 +405,7 @@ fn rec_solve_logic(logic: &LogicDependency, items: &Vec<String>, tags: &HashMap<
 					.expect(&format!("Tag not found! {:?}", s)),
 				items,
 				tags
-			)
+			);
 		}
 		LogicDependency::And(v) => {
 			for l in v {
@@ -590,7 +655,13 @@ fn get_all_tags(all_tag_files: &Vec<PathBuf>) -> HashMap<String, LogicDependency
 		// still no clue why I need a double iterator here!
 		for a in vals.as_array().iter() {
 			for tag in a.iter() {
-				dependencies.push(LogicDependency::Item(tag.as_str().unwrap().to_string()));
+				let s = tag.as_str().unwrap().to_string();
+				if s[0..1] == "#".to_string() {
+					dependencies.push(LogicDependency::Tag(s[1..].to_string()));
+				}
+				else {
+					dependencies.push(LogicDependency::Item(s));
+				}
 			}
 		}
 

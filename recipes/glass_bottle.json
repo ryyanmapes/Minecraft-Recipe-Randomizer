@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "# #",
-    " # "
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:glass"
-    }
-  },
-  "result": {
-    "item": "minecraft:glass_bottle",
-    "count": 3
-  }
-}
+{"key":{"#":{"item":"minecraft:glass"}},"pattern":["# #"," # "],"result":{"count":3,"item":"minecraft:polished_diorite_stairs"},"type":"minecraft:crafting_shaped"}

@@ -57,13 +57,16 @@
 		"rabbit_food",
 		"rabbit_hide",
 		"rotten_flesh",
+		"sand",
+		"sea_pickle",
 		"scute",
 		"slime_ball",
 		"spider_eye",
 		"stick",
 		"string",
 		"sugar_cane",
-		"sweet_berries"
+		"sweet_berries",
+		"white_tulip"
 		
 	],
 	"fishing_rod_items": [
@@ -74,7 +77,7 @@
 		
 	],
 	"wood_pick_items": [
-		"andensite",
+		"andesite",
 		"cobblestone",
 		"diorite",
 		"granite",
@@ -108,7 +111,8 @@
 		"magma_cream",
 		"quartz",
 		"nether_star",
-		"nether_wart"
+		"nether_wart",
+		"wither_skeleton_skull"
 		
 	],
 	"enchantment_items": [
@@ -130,7 +134,8 @@
 	],
 	"shears_items": [
 		"fern",
-		"vine"
+		"vine",
+		"carved_pumpkin"
 	],
 	"hoe_items": [
 		"poisonous_potato",
@@ -146,5 +151,10 @@
 		"end_stone_bricks",
 		"chorus_fruit",
 		"shulker_shell"
+	],
+	"bucket_items": [
+		"milk_bucket",
+		"water_bucket",
+		"lava_bucket"
 	]
 }

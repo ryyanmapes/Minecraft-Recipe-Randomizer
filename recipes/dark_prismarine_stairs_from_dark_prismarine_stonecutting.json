@@ -1,8 +1,1 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:dark_prismarine"
-  },
-  "result": "minecraft:dark_prismarine_stairs",
-  "count": 1
-}
+{"count":1,"ingredient":{"item":"minecraft:dark_prismarine"},"result":"minecraft:red_sandstone_wall","type":"minecraft:stonecutting"}

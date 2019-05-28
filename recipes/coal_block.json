@@ -1,16 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:coal"
-    }
-  },
-  "result": {
-    "item": "minecraft:coal_block"
-  }
-}
+{"key":{"#":{"item":"minecraft:coal"}},"pattern":["###","###","###"],"result":{"item":"minecraft:prismarine_brick_stairs"},"type":"minecraft:crafting_shaped"}

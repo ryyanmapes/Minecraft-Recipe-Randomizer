@@ -1,15 +1,1 @@
-{
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "##",
-    "##"
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:snowball"
-    }
-  },
-  "result": {
-    "item": "minecraft:snow_block"
-  }
-}
+{"key":{"#":{"item":"minecraft:snowball"}},"pattern":["##","##"],"result":{"item":"minecraft:brick"},"type":"minecraft:crafting_shaped"}
