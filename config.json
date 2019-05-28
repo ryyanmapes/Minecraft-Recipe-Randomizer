@@ -1,5 +1,8 @@
-{
-	"base_items": [
+[
+	{"requires": 
+		{"type": "True",
+		"items": []},
+	 "results": [
 		"acacia_log",
 		"allium",
 		"azure_bluet",
@@ -67,28 +70,54 @@
 		"sugar_cane",
 		"sweet_berries",
 		"white_tulip"
+		] },
 		
-	],
-	"fishing_rod_items": [
+	{"requires": 
+		"fishing_rod",
+	 "results": [
 		"cod",
 		"pufferfish",
 		"salmon",
 		"tropical_fish"
-		
-	],
-	"wood_pick_items": [
+		]},
+
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_pickaxe",
+			"stone_pickaxe",
+			"gold_pickaxe",
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
 		"andesite",
 		"cobblestone",
 		"diorite",
 		"granite",
 		"mossy_cobblestone",
 		"terracotta"
-	],
-	"stone_pick_items": [
+	]},
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"stone_pickaxe",
+			"gold_pickaxe",
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
 		"iron_ore",
 		"lapis_lazuli"
-	],
-	"iron_pick_items": [
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
 		"gold_ore",
 		"wet_sponge",
 		"diamond",
@@ -96,9 +125,21 @@
 		"prismarine_crystals",
 		"prismarine_shard",
 		"redstone"
-		
-	],
-	"nether_items": [
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"diamond_pickaxe",
+			{
+				"type": "Or",
+				"items": [
+					"flint_and_steel",
+					"fire_charge"
+				]
+			}
+		]},
+	 "results": [
 		"magma_block",
 		"nether_bricks",
 		"netherrack",
@@ -113,9 +154,16 @@
 		"nether_star",
 		"nether_wart",
 		"wither_skeleton_skull"
-		
-	],
-	"enchantment_items": [
+	]},
+	
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"enchanting_table",
+			"bookshelf"
+		]},
+	 "results": [
 		"blue_ice",
 		"coal_ore",
 		"diamond_ore",
@@ -131,30 +179,114 @@
 		"stone",
 		"enchanted_golden_apple",
 		"lapis_ore"
-	],
-	"shears_items": [
+	]},
+	
+	{"requires": 
+		"shears",
+	 "results": [
 		"fern",
 		"vine",
 		"carved_pumpkin"
-	],
-	"hoe_items": [
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_hoe",
+			"stone_hoe",
+			"gold_hoe",
+			"iron_hoe",
+			"diamond_hoe"
+		]},
+	 "results": [
 		"poisonous_potato",
 		"potato",
 		"beetroot",
 		"wheat"
-	],
-	"shovel_items": [
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_shovel",
+			"stone_shovel",
+			"gold_shovel",
+			"iron_shovel",
+			"diamond_shovel"
+		]},
+	 "results": [
 		"snowball"
-	],
-	"end_items": [
+	]},
+	
+	{"requires": 
+		"ender_eye",
+	 "results":[
 		"end_stone",
 		"end_stone_bricks",
 		"chorus_fruit",
 		"shulker_shell"
-	],
-	"bucket_items": [
+	]},
+	
+	{"requires": 
+		"bucket",
+		
+	 "results": [
 		"milk_bucket",
 		"water_bucket",
 		"lava_bucket"
-	]
-}
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"mushroom_stew",
+			"rabbit_stew"
+		]},
+	 "results": [
+		"bowl"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"chest_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"chest"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"furnace_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"furnace"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"tnt_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"tnt"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"hopper_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"hopper"
+	]}
+]

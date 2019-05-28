@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:paper"},"X":{"item":"minecraft:compass"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:andesite_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:paper"},"X":{"item":"minecraft:compass"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:nether_bricks"},"type":"minecraft:crafting_shaped"}

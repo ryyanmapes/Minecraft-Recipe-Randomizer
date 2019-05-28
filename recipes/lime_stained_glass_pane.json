@@ -1,1 +1,1 @@
-{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:lime_stained_glass"}},"pattern":["###","###"],"result":{"count":16,"item":"minecraft:glowstone"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:lime_stained_glass"}},"pattern":["###","###"],"result":{"count":16,"item":"minecraft:smooth_stone_slab"},"type":"minecraft:crafting_shaped"}

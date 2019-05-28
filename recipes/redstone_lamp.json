@@ -1,1 +1,1 @@
-{"key":{"G":{"item":"minecraft:glowstone"},"R":{"item":"minecraft:redstone"}},"pattern":[" R ","RGR"," R "],"result":{"item":"minecraft:smooth_sandstone"},"type":"minecraft:crafting_shaped"}
+{"key":{"G":{"item":"minecraft:glowstone"},"R":{"item":"minecraft:redstone"}},"pattern":[" R ","RGR"," R "],"result":{"item":"minecraft:diorite_wall"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:smooth_sandstone"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:wooden_axe"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:smooth_sandstone"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:dispenser"},"type":"minecraft:crafting_shaped"}

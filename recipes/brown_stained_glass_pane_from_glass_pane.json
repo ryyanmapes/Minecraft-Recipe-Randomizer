@@ -1,1 +1,1 @@
-{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:glass_pane"},"$":{"item":"minecraft:brown_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:stone_brick_stairs"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:glass_pane"},"$":{"item":"minecraft:brown_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:wheat"},"type":"minecraft:crafting_shaped"}

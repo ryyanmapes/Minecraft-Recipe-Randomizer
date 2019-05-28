@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"I":{"item":"minecraft:iron_ingot"},"S":{"item":"minecraft:stick"}},"pattern":["I","S","#"],"result":{"count":2,"item":"minecraft:orange_banner"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"I":{"item":"minecraft:iron_ingot"},"S":{"item":"minecraft:stick"}},"pattern":["I","S","#"],"result":{"count":2,"item":"minecraft:brown_wool"},"type":"minecraft:crafting_shaped"}

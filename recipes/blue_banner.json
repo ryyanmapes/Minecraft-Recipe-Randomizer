@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:blue_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:carrot_on_a_stick"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:blue_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:mossy_cobblestone_wall"},"type":"minecraft:crafting_shaped"}

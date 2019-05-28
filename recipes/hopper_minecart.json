@@ -1,1 +1,1 @@
-{"key":{"A":{"item":"minecraft:hopper"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:light_blue_bed"},"type":"minecraft:crafting_shaped"}
+{"key":{"A":{"item":"minecraft:hopper"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:daylight_detector"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"group":"dyed_bed","ingredients":[{"item":"minecraft:white_bed"},{"item":"minecraft:purple_dye"}],"result":{"item":"minecraft:black_bed"},"type":"minecraft:crafting_shapeless"}
+{"group":"dyed_bed","ingredients":[{"item":"minecraft:white_bed"},{"item":"minecraft:purple_dye"}],"result":{"item":"minecraft:coarse_dirt"},"type":"minecraft:crafting_shapeless"}

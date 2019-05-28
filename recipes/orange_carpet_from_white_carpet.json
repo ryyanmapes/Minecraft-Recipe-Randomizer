@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:orange_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:light_gray_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:orange_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:jungle_button"},"type":"minecraft:crafting_shaped"}

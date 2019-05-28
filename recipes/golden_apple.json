@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:gold_ingot"},"X":{"item":"minecraft:apple"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:chest_minecart"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:gold_ingot"},"X":{"item":"minecraft:apple"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:cauldron"},"type":"minecraft:crafting_shaped"}

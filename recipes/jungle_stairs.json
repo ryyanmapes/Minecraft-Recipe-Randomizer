@@ -1,1 +1,1 @@
-{"group":"wooden_stairs","key":{"#":{"item":"minecraft:jungle_planks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:gold_ingot"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_stairs","key":{"#":{"item":"minecraft:jungle_planks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:nether_brick_stairs"},"type":"minecraft:crafting_shaped"}

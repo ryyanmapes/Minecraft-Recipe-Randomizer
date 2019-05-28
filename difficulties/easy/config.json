@@ -1,0 +1,236 @@
+[
+	{"requires": 
+		{"type": "True",
+		"items": []},
+	 "results": [
+		"acacia_log",
+		"allium",
+		"azure_bluet",
+		"bamboo",
+		"birch_log",
+		"blue_orchid",
+		"brown_mushroom",
+		"cactus",
+		"cornflower",
+		"creeper_head",
+		"dandelion",
+		"dark_oak_log",
+		"dark_prismarine",
+		"dirt",
+		"gravel",
+		"jungle_log",
+		"lilac",
+		"lily_of_the_valley",
+		"oak_log",
+		"orange_tulip",
+		"oxeye_daisy",
+		"peony",
+		"pink_tulip",
+		"poppy",
+		"pumpkin",
+		"red_mushroom",
+		"red_sand",
+		"red_tulip",
+		"rose_bush",
+		"spruce_log",
+		"sunflower",
+		"white_wool",
+		"apple",
+		"arrow",
+		"beef",
+		"bone",
+		"carrot",
+		"chicken",
+		"clay_ball",
+		"cocoa_beans",
+		"egg",
+		"ender_pearl",
+		"feather",
+		"flint",
+		"gunpowder",
+		"heart_of_the_sea",
+		"ink_sac",
+		"kelp",
+		"leather",
+		"melon_slice",
+		"mutton",
+		"nautilus_shell",
+		"porkchop",
+		"rabbit",
+		"rabbit_food",
+		"rabbit_hide",
+		"rotten_flesh",
+		"sand",
+		"sea_pickle",
+		"scute",
+		"slime_ball",
+		"spider_eye",
+		"stick",
+		"string",
+		"sugar_cane",
+		"sweet_berries",
+		"white_tulip"
+		] },
+		
+	{"requires": 
+		"fishing_rod",
+	 "results": [
+		"cod",
+		"pufferfish",
+		"salmon",
+		"tropical_fish"
+		]},
+
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_pickaxe",
+			"stone_pickaxe",
+			"gold_pickaxe",
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
+		"andesite",
+		"cobblestone",
+		"diorite",
+		"granite"
+	]},
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"stone_pickaxe",
+			"gold_pickaxe",
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
+		"iron_ore",
+		"lapis_lazuli"
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"iron_pickaxe",
+			"diamond_pickaxe"
+		]},
+	 "results": [
+		"gold_ore",
+		"wet_sponge",
+		"diamond",
+		"emerald",
+		"prismarine_crystals",
+		"prismarine_shard",
+		"redstone"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"diamond_pickaxe",
+			{
+				"type": "Or",
+				"items": [
+					"flint_and_steel",
+					"fire_charge"
+				]
+			}
+		]},
+	 "results": [
+		"magma_block",
+		"nether_bricks",
+		"netherrack",
+		"obsidian",
+		"soul_sand",
+		"wither_rose",
+		"blaze_rod",
+		"ghast_tear",
+		"glowstone_dust",
+		"magma_cream",
+		"quartz",
+		"nether_star",
+		"nether_wart",
+		"wither_skeleton_skull"
+	]},
+	
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"enchanting_table",
+			"bookshelf"
+		]},
+	 "results": [
+		"blue_ice",
+		"coal_ore",
+		"diamond_ore",
+		"emerald_ore",
+		"glowstone",
+		"ice",
+		"melon",
+		"mycelium",
+		"nether_quartz_ore",
+		"podzol",
+		"redstone_ore",
+		"snow_block",
+		"stone",
+		"enchanted_golden_apple",
+		"lapis_ore"
+	]},
+	
+	{"requires": 
+		"shears",
+	 "results": [
+		"fern",
+		"vine",
+		"carved_pumpkin"
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_hoe",
+			"stone_hoe",
+			"gold_hoe",
+			"iron_hoe",
+			"diamond_hoe"
+		]},
+	 "results": [
+		"poisonous_potato",
+		"potato",
+		"beetroot",
+		"wheat"
+	]},
+	
+	{"requires": 
+		{"type": "Or",
+		"items": [
+			"wooden_shovel",
+			"stone_shovel",
+			"gold_shovel",
+			"iron_shovel",
+			"diamond_shovel"
+		]},
+	 "results": [
+		"snowball"
+	]},
+	
+	{"requires": 
+		"ender_eye",
+	 "results":[
+		"end_stone",
+		"end_stone_bricks",
+		"chorus_fruit",
+		"shulker_shell"
+	]},
+	
+	{"requires": 
+		"bucket",
+		
+	 "results": [
+		"milk_bucket",
+		"water_bucket",
+		"lava_bucket"
+	]},
+]

@@ -1,1 +1,1 @@
-{"key":{"C":{"tag":"minecraft:coals"},"L":{"tag":"minecraft:logs"},"S":{"item":"minecraft:stick"}},"pattern":[" S ","SCS","LLL"],"result":{"item":"minecraft:compass"},"type":"minecraft:crafting_shaped"}
+{"key":{"C":{"tag":"minecraft:coals"},"L":{"tag":"minecraft:logs"},"S":{"item":"minecraft:stick"}},"pattern":[" S ","SCS","LLL"],"result":{"item":"minecraft:cut_sandstone_slab"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"A":{"item":"minecraft:milk_bucket"},"B":{"item":"minecraft:sugar"},"C":{"item":"minecraft:wheat"},"E":{"item":"minecraft:egg"}},"pattern":["AAA","BEB","CCC"],"result":{"item":"minecraft:red_banner"},"type":"minecraft:crafting_shaped"}
+{"key":{"A":{"item":"minecraft:milk_bucket"},"B":{"item":"minecraft:sugar"},"C":{"item":"minecraft:wheat"},"E":{"item":"minecraft:egg"}},"pattern":["AAA","BEB","CCC"],"result":{"item":"minecraft:yellow_stained_glass_pane"},"type":"minecraft:crafting_shaped"}

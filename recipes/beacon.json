@@ -1,1 +1,1 @@
-{"key":{"G":{"item":"minecraft:glass"},"O":{"item":"minecraft:obsidian"},"S":{"item":"minecraft:nether_star"}},"pattern":["GGG","GSG","OOO"],"result":{"item":"minecraft:brick_slab"},"type":"minecraft:crafting_shaped"}
+{"key":{"G":{"item":"minecraft:glass"},"O":{"item":"minecraft:obsidian"},"S":{"item":"minecraft:nether_star"}},"pattern":["GGG","GSG","OOO"],"result":{"item":"minecraft:andesite_stairs"},"type":"minecraft:crafting_shaped"}

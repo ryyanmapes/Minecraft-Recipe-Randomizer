@@ -1,1 +1,1 @@
-{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"},{"item":"minecraft:cut_sandstone"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:quartz"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"},{"item":"minecraft:cut_sandstone"}]},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:red_terracotta"},"type":"minecraft:crafting_shaped"}

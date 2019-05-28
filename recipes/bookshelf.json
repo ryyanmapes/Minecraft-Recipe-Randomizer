@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:end_rod"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:red_banner"},"type":"minecraft:crafting_shaped"}

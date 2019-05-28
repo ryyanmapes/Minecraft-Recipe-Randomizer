@@ -1,0 +1,27 @@
+
+
+Easy Changes (playable with no structures or stronghold and most biomes)
+- Removed Mojang pattern (required enchanted golden apple)
+- Removed red dye from beetroot
+- Removed beet root stew
+- Removed potato and carrot recipes
+- Removed end and post-wither recipes
+- Removed sponge
+- Removed conduit
+- Removed silk touch required recipes
+- Removed Creeper Head pattern
+
+
+
+- Breaking minecarts not implied
+- Bowls from soups not implied 
+
+
+Normal Changes: (playable without structures except stronghold)
+- Removed Mojang pattern (required enchanted golden apple)
+- Removed red dye from beetroot
+- Removed beet root stew
+  
+
+Hard Changes:
+- All recipes included

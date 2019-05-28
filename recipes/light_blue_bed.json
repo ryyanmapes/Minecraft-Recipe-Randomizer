@@ -1,1 +1,1 @@
-{"group":"bed","key":{"#":{"item":"minecraft:light_blue_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:red_glazed_terracotta"},"type":"minecraft:crafting_shaped"}
+{"group":"bed","key":{"#":{"item":"minecraft:light_blue_wool"},"X":{"tag":"minecraft:planks"}},"pattern":["###","XXX"],"result":{"item":"minecraft:acacia_sign"},"type":"minecraft:crafting_shaped"}

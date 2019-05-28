@@ -1,1 +1,1 @@
-{"group":"boat","key":{"#":{"item":"minecraft:spruce_planks"}},"pattern":["# #","###"],"result":{"item":"minecraft:diamond_hoe"},"type":"minecraft:crafting_shaped"}
+{"group":"boat","key":{"#":{"item":"minecraft:spruce_planks"}},"pattern":["# #","###"],"result":{"item":"minecraft:ender_chest"},"type":"minecraft:crafting_shaped"}

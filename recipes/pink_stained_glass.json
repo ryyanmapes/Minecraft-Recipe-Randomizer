@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:pink_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:spruce_trapdoor"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:pink_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:red_glazed_terracotta"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"A":{"item":"minecraft:chest"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:magenta_terracotta"},"type":"minecraft:crafting_shaped"}
+{"key":{"A":{"item":"minecraft:chest"},"B":{"item":"minecraft:minecart"}},"pattern":["A","B"],"result":{"item":"minecraft:quartz_block"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:cyan_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:golden_pickaxe"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:cyan_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:iron_nugget"},"type":"minecraft:crafting_shaped"}

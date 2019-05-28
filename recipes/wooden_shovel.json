@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"tag":"minecraft:planks"}},"pattern":["X","#","#"],"result":{"item":"minecraft:light_gray_dye"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"tag":"minecraft:planks"}},"pattern":["X","#","#"],"result":{"item":"minecraft:spruce_button"},"type":"minecraft:crafting_shaped"}

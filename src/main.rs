@@ -15,11 +15,15 @@ use serde_json::map::Map;
 
 #[derive(Debug)]
 #[derive(Clone)]
+#[derive(PartialEq)]
+#[derive(Eq)]
+#[derive(Hash)]
 enum LogicDependency {
 	Item(String),
 	Tag(String),
 	And(Vec<LogicDependency>),
 	Or(Vec<LogicDependency>),
+	True,
 }
 
 #[derive(Debug)]
@@ -43,17 +47,19 @@ fn main() {
 	// part 1.5: extract all tag logic from './tags'
 	let tag_bindings = get_all_tags(&all_tag_files);
 	// as well as all config age groups
-	let age_groups: HashMap<String, Vec<String>> = get_all_age_groups();
+	let age_groups = get_all_age_groups();
+	// and significant items
+	let sig_items = get_crucial_items(&age_groups, &tag_bindings);
 
 	// part 2: extract all recipe inputs and outputs from those files
 	let mut all_recipes = get_all_products(&all_recipe_files);
 	// also collect all recipe results into one list
 	let mut all_products = get_products_from_recipes(&all_recipes);
 	// also get all dead-end products
-	let dead_end_products = get_dead_end_products(&all_recipes, &all_products, &tag_bindings);
+	//let dead_end_products = get_dead_end_products(&all_recipes, &all_products, &tag_bindings);
 
 	// part 3: do the shuffle!
-	let mut unlocked_items = age_groups.get("base_items")
+	let mut unlocked_items = age_groups.get(&LogicDependency::True)
 		.expect("No base items in config!")
 		.clone();
 
@@ -68,7 +74,7 @@ fn main() {
 	loop {
 		find_craftable_recipes(&unlocked_items, &mut craftable_recipes, &mut not_craftable_recipes, &tag_bindings);
 
-		if (rng.gen_range(0,2) == 1 || craftable_recipes.len() == 0) {
+		if ((iterations >= 5 && rng.gen_range(0,2) == 1) || craftable_recipes.len() == 0) {
 			let mut random_num_3: usize = 0;
 			let mut i = 0;
 			let mut skip_flag = false;
@@ -77,7 +83,7 @@ fn main() {
 
 				let result = &scrambled_recipes[random_num_3].result;
 
-				if safe_to_remove(&unlocked_items, &result, &craftable_recipes, &tag_bindings) {
+				if safe_to_remove(&unlocked_items, &result, &craftable_recipes, &tag_bindings, &sig_items) {
 					//println!("{:?}", result);
 					break;
 				}
@@ -108,10 +114,11 @@ fn main() {
 		
 		let chosen_item: String = remaining_products.remove(random_num_2).to_string();
 
-		let debug_files: Vec<String> = not_craftable_recipes.clone().into_iter().map(|r| {r.file.to_string()}).collect();
-		//println!("{:?} {:?}", debug_files, remaining_products.len());
+		unlock_items_and_check(&mut unlocked_items, &chosen_item, &tag_bindings, &age_groups, &sig_items);
 
-		unlock_items_and_check(&mut unlocked_items, &chosen_item, &age_groups);
+		//let debug_files: Vec<String> = not_craftable_recipes.clone().into_iter().map(|r| {r.file.to_string()}).collect();
+		//println!("{:?} {:?} > {:?}", unlocked_items, debug_files, remaining_products.len());
+		//println!("{:?}", unlocked_items.len());
 
 		craftable_recipes[random_num_1].result = chosen_item;
 		scrambled_recipes.push(craftable_recipes.remove(random_num_1));
@@ -181,8 +188,8 @@ fn main() {
 
 }
 
-fn safe_to_remove (unlocked_items: &Vec<String>, item_to_remove: &String, craftable_recipes: &Vec<Recipe>, tags: &HashMap<String, LogicDependency>) -> bool {
-	if get_crucial_items().contains(item_to_remove) {
+fn safe_to_remove (unlocked_items: &Vec<String>, item_to_remove: &String, craftable_recipes: &Vec<Recipe>, tags: &HashMap<String, LogicDependency>, sig_items: &Vec<String>) -> bool {
+	if sig_items.contains(item_to_remove) {
 		return false;
 	}
 
@@ -268,86 +275,32 @@ fn rec_get_all_referenced_recipes (logic: &LogicDependency, tags: &HashMap<Strin
 			}
 			return vec;
 		}
+		LogicDependency::True => {
+			return Vec::new();
+		}
 	}
 }
 
-// this is awful, i know
-fn get_crucial_items() -> Vec<String> {
+fn get_crucial_items(age_groups: &HashMap<LogicDependency, Vec<String>>, tags: &HashMap<String, LogicDependency>) -> Vec<String> {
 	let mut v: Vec<String> = Vec::new();
-	v.push("minecraft:fishing_rod".to_string());
-	v.push("minecraft:wooden_pickaxe".to_string()); 
-	v.push("minecraft:stone_pickaxe".to_string());
-	v.push("minecraft:iron_pickaxe".to_string());
-	v.push("minecraft:diamond_pickaxe".to_string());
-	v.push("minecraft:flint_and_steel".to_string());
-	v.push("minecraft:fire_charge".to_string());
-	v.push("minecraft:enchanting_table".to_string()); 
-	v.push("minecraft:bookshelf".to_string());
-	v.push("minecraft:shears".to_string()) ;
-	v.push("minecraft:wooden_hoe".to_string());
-	v.push("minecraft:stone_hoe".to_string()); 
-	v.push("minecraft:gold_hoe".to_string());
-	v.push("minecraft:iron_hoe".to_string());
-	v.push("minecraft:diamond_hoe".to_string());
-	v.push("minecraft:wooden_shovel".to_string());
-	v.push("minecraft:stone_shovel".to_string());
-	v.push("minecraft:gold_shovel".to_string()) ;
-	v.push("minecraft:iron_shovel".to_string());
-	v.push("minecraft:diamond_shovel".to_string());
-	v.push("minecraft:ender_eye".to_string());
-	v.push("minecraft:bucket".to_string());
+	
+	for k in age_groups.keys() {
+		v.extend(rec_get_all_referenced_recipes(k, tags));
+	}
+
 	v
 }
 
-fn unlock_items_and_check (unlocked_items: &mut Vec<String>, chosen_item: &String, age_groups: &HashMap<String, Vec<String>>) {
+fn unlock_items_and_check (unlocked_items: &mut Vec<String>, chosen_item: &String, tags: &HashMap<String, LogicDependency>, age_groups: &HashMap<LogicDependency, Vec<String>>, sig_items: &Vec<String>) {
 
-	if unlock_item(unlocked_items, chosen_item) && get_crucial_items().contains(chosen_item) {
+	if unlock_item(unlocked_items, chosen_item) && sig_items.contains(chosen_item) {
 
-		if unlocked_items.contains(&"minecraft:fishing_rod".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("fishing_rod_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:wooden_pickaxe".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:stone_pickaxe".to_string()) || unlocked_items.contains(&"minecraft:gold_pickaxe".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
-			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:iron_pickaxe".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
-			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
-			unlock_all_items(unlocked_items, age_groups.get("iron_pick_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:diamond_pickaxe".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("wood_pick_items").unwrap());
-			unlock_all_items(unlocked_items, age_groups.get("stone_pick_items").unwrap());
-			unlock_all_items(unlocked_items, age_groups.get("iron_pick_items").unwrap());
-			if unlocked_items.contains(&"minecraft:flint_and_steel".to_string()) || unlocked_items.contains(&"minecraft:fire_charge".to_string()) {
-				unlock_all_items(unlocked_items, age_groups.get("nether_items").unwrap());
+		for k in age_groups.keys() {
+			if rec_solve_logic(&k, unlocked_items, tags) {
+				unlock_all_items(unlocked_items, &age_groups.get(k).unwrap());
 			}
 		}
-		if unlocked_items.contains(&"minecraft:enchanting_table".to_string()) && unlocked_items.contains(&"minecraft:bookshelf".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("enchantment_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:shears".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("shears_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:wooden_hoe".to_string()) || unlocked_items.contains(&"minecraft:stone_hoe".to_string())
-			|| unlocked_items.contains(&"minecraft:gold_hoe".to_string()) || unlocked_items.contains(&"minecraft:iron_hoe".to_string())
-			|| unlocked_items.contains(&"minecraft:diamond_hoe".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("hoe_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:wooden_shovel".to_string()) || unlocked_items.contains(&"minecraft:stone_shovel".to_string())
-			|| unlocked_items.contains(&"minecraft:gold_shovel".to_string()) || unlocked_items.contains(&"minecraft:iron_shovel".to_string())
-			|| unlocked_items.contains(&"minecraft:diamond_shovel".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("shovel_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:ender_eye".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("end_items").unwrap());
-		}
-		if unlocked_items.contains(&"minecraft:bucket".to_string()) {
-			unlock_all_items(unlocked_items, age_groups.get("bucket_items").unwrap());
-		}
+
 	}
 }
 
@@ -422,6 +375,9 @@ fn rec_solve_logic(logic: &LogicDependency, items: &Vec<String>, tags: &HashMap<
 				}
 			}
 			return false;
+		}
+		LogicDependency::True => {
+			return true;
 		}
 	}
 }
@@ -697,8 +653,8 @@ fn get_all_dir_files(folder: &str) -> Vec<PathBuf> {
 	all_recipe_files
 }
 
-fn get_all_age_groups() -> HashMap<String, Vec<String>> {
-	let mut all_age_groups: HashMap<String, Vec<String>> = HashMap::new();
+fn get_all_age_groups() -> HashMap<LogicDependency, Vec<String>> {
+	let mut all_age_groups: HashMap<LogicDependency, Vec<String>> = HashMap::new();
 
 	let f = File::open("./config.json")
 		.expect("Unable to find the config file!");
@@ -706,22 +662,65 @@ fn get_all_age_groups() -> HashMap<String, Vec<String>> {
 
 	let data: Value = serde_json::from_reader(reader)
 		.expect("Unable to read JSON in config!");
-	let data_obj = data.as_object().unwrap();
+	let data_arr = data.as_array().unwrap();
 
-	for k in data_obj.keys() {
+	for i in data_arr {
+
+		let r: &Value = i.get("requires").expect("Missing requires in config!");
+		let logic: LogicDependency = get_age_logic(&r);
 
 		let mut items: Vec<String> = Vec::new();
-		let list = data_obj.get(k).unwrap().as_array()
-			.expect("Malformed config file!");
+		let list = i.get("results")
+			.expect("Missing results in config!")
+			.as_array()
+			.expect("Malformed results in config file!");
 
 		for item in list {
-			let final_string = format!("minecraft:{}", item.as_str().unwrap().to_string());
+			let final_string = convert_to_mc_name(item);
 			items.push(final_string);
 		}
 
-		all_age_groups.insert(k.to_string(), items);
+		all_age_groups.insert(logic, items);
 
 	}
 
 	all_age_groups
+}
+
+fn convert_to_mc_name(item:&Value) -> String {
+	format!("minecraft:{}", item.as_str().unwrap().to_string())
+}
+
+fn get_age_logic(v: &Value) -> LogicDependency {
+	match v {
+		Value::String(s) => {
+			return LogicDependency::Item(convert_to_mc_name(v));
+		}
+		Value::Object(obj) => {
+			let rtype = obj.get("type").expect("Missing type tag in config!");
+
+			if rtype == "True" {return LogicDependency::True;}
+		
+			let mut vec: Vec<LogicDependency> = Vec::new();
+			let results = obj.get("items").expect("Missing items tag in config!")
+				.as_array().expect("Broken results tag in config!");
+
+			for r in results {
+				vec.push(get_age_logic(r));
+			}
+
+			if rtype == "And" {
+				return LogicDependency::And(vec);
+			}
+			else if rtype == "Or" {
+				return LogicDependency::Or(vec);
+			}
+			else {
+				panic!("Invalid type in config! {:?}", rtype);
+			}
+		}
+		_ => {
+			panic!("Broken config!");
+		}
+	}
 }

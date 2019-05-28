@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:brown_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:granite_stairs"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:brown_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:smooth_quartz_stairs"},"type":"minecraft:crafting_shaped"}

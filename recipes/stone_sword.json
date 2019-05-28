@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["X","X","#"],"result":{"item":"minecraft:spectral_arrow"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:cobblestone"}},"pattern":["X","X","#"],"result":{"item":"minecraft:gray_bed"},"type":"minecraft:crafting_shaped"}
