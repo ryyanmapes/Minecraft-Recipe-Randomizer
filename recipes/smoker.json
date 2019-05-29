@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:logs"},"X":{"item":"minecraft:furnace"}},"pattern":[" # ","#X#"," # "],"result":{"item":"minecraft:brown_stained_glass_pane"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:logs"},"X":{"item":"minecraft:furnace"}},"pattern":[" # ","#X#"," # "],"result":{"item":"minecraft:golden_apple"},"type":"minecraft:crafting_shaped"}

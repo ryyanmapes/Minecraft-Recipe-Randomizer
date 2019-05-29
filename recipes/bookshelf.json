@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:red_banner"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:book"}},"pattern":["###","XXX","###"],"result":{"item":"minecraft:black_stained_glass"},"type":"minecraft:crafting_shaped"}

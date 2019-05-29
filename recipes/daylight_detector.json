@@ -1,1 +1,1 @@
-{"key":{"G":{"item":"minecraft:glass"},"Q":{"item":"minecraft:quartz"},"W":{"tag":"minecraft:wooden_slabs"}},"pattern":["GGG","QQQ","WWW"],"result":{"item":"minecraft:dark_prismarine_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"G":{"item":"minecraft:glass"},"Q":{"item":"minecraft:quartz"},"W":{"tag":"minecraft:wooden_slabs"}},"pattern":["GGG","QQQ","WWW"],"result":{"item":"minecraft:stone_brick_wall"},"type":"minecraft:crafting_shaped"}

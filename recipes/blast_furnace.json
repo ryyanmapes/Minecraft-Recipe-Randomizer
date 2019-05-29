@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:smooth_stone"},"I":{"item":"minecraft:iron_ingot"},"X":{"item":"minecraft:furnace"}},"pattern":["III","IXI","###"],"result":{"item":"minecraft:iron_nugget"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:smooth_stone"},"I":{"item":"minecraft:iron_ingot"},"X":{"item":"minecraft:furnace"}},"pattern":["III","IXI","###"],"result":{"item":"minecraft:spruce_stairs"},"type":"minecraft:crafting_shaped"}

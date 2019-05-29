@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:paper"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:yellow_bed"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:paper"}},"pattern":["@@","##","##"],"result":{"item":"minecraft:spruce_boat"},"type":"minecraft:crafting_shaped"}

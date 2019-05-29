@@ -694,7 +694,13 @@ fn convert_to_mc_name(item:&Value) -> String {
 fn get_age_logic(v: &Value) -> LogicDependency {
 	match v {
 		Value::String(s) => {
-			return LogicDependency::Item(convert_to_mc_name(v));
+			if s[0..1] == "#".to_string() {
+				let new_v = Value::String(s[1..].to_string());
+				return LogicDependency::Tag(convert_to_mc_name(&new_v));
+			}
+			else {
+				return LogicDependency::Item(convert_to_mc_name(v));
+			}
 		}
 		Value::Object(obj) => {
 			let rtype = obj.get("type").expect("Missing type tag in config!");

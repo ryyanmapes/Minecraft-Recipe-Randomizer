@@ -1,1 +1,1 @@
-{"group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:birch_planks"}},"pattern":["##"],"result":{"item":"minecraft:polished_granite"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:birch_planks"}},"pattern":["##"],"result":{"item":"minecraft:creeper_banner_pattern"},"type":"minecraft:crafting_shaped"}

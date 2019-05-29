@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:carrot"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:brewing_stand"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:carrot"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:cooked_chicken"},"type":"minecraft:crafting_shaped"}

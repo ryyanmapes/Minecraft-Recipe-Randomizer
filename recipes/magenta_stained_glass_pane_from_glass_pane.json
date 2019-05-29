@@ -1,1 +1,1 @@
-{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:glass_pane"},"$":{"item":"minecraft:magenta_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:sandstone_wall"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass_pane","key":{"#":{"item":"minecraft:glass_pane"},"$":{"item":"minecraft:magenta_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:spruce_slab"},"type":"minecraft:crafting_shaped"}

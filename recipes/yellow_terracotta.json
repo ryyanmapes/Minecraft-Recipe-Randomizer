@@ -1,1 +1,1 @@
-{"group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:yellow_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:clock"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:yellow_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:gray_wool"},"type":"minecraft:crafting_shaped"}

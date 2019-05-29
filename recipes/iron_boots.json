@@ -1,1 +1,1 @@
-{"key":{"X":{"item":"minecraft:iron_ingot"}},"pattern":["X X","X X"],"result":{"item":"minecraft:stone_slab"},"type":"minecraft:crafting_shaped"}
+{"key":{"X":{"item":"minecraft:iron_ingot"}},"pattern":["X X","X X"],"result":{"item":"minecraft:lever"},"type":"minecraft:crafting_shaped"}

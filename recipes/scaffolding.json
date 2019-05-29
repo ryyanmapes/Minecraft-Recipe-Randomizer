@@ -1,1 +1,1 @@
-{"key":{"I":{"item":"minecraft:bamboo"},"~":{"item":"minecraft:string"}},"pattern":["I~I","I I","I I"],"result":{"count":6,"item":"minecraft:light_blue_dye"},"type":"minecraft:crafting_shaped"}
+{"key":{"I":{"item":"minecraft:bamboo"},"~":{"item":"minecraft:string"}},"pattern":["I~I","I I","I I"],"result":{"count":6,"item":"minecraft:charcoal"},"type":"minecraft:crafting_shaped"}

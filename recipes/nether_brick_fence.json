@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:nether_bricks"},"-":{"item":"minecraft:nether_brick"}},"pattern":["#-#","#-#"],"result":{"count":6,"item":"minecraft:mossy_stone_brick_wall"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:nether_bricks"},"-":{"item":"minecraft:nether_brick"}},"pattern":["#-#","#-#"],"result":{"count":6,"item":"minecraft:cookie"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:light_gray_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:dark_oak_fence_gate"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:light_gray_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:tnt_minecart"},"type":"minecraft:crafting_shaped"}

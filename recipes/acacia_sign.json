@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:acacia_planks"},"X":{"item":"minecraft:stick"}},"pattern":["###","###"," X "],"result":{"count":3,"item":"minecraft:stonecutter"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:acacia_planks"},"X":{"item":"minecraft:stick"}},"pattern":["###","###"," X "],"result":{"count":3,"item":"minecraft:glass_pane"},"type":"minecraft:crafting_shaped"}

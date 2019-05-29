@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:cobblestone_slab"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:torch"},"X":{"item":"minecraft:iron_nugget"}},"pattern":["XXX","X#X","XXX"],"result":{"item":"minecraft:trapped_chest"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:obsidian"},"E":{"item":"minecraft:ender_eye"}},"pattern":["###","#E#","###"],"result":{"item":"minecraft:black_banner"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:obsidian"},"E":{"item":"minecraft:ender_eye"}},"pattern":["###","#E#","###"],"result":{"item":"minecraft:nether_bricks"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"}]},"pattern":["###"],"result":{"count":6,"item":"minecraft:yellow_concrete_powder"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":[{"item":"minecraft:sandstone"},{"item":"minecraft:chiseled_sandstone"}]},"pattern":["###"],"result":{"count":6,"item":"minecraft:chiseled_red_sandstone"},"type":"minecraft:crafting_shaped"}

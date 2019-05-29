@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:oak_planks"},"X":{"item":"minecraft:stick"}},"pattern":["###","###"," X "],"result":{"count":3,"item":"minecraft:yellow_carpet"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:oak_planks"},"X":{"item":"minecraft:stick"}},"pattern":["###","###"," X "],"result":{"count":3,"item":"minecraft:beacon"},"type":"minecraft:crafting_shaped"}

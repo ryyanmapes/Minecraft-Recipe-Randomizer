@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:magenta_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:cooked_porkchop"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:magenta_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:smooth_stone"},"type":"minecraft:crafting_shaped"}

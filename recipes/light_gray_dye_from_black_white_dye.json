@@ -1,1 +1,1 @@
-{"group":"light_gray_dye","ingredients":[{"item":"minecraft:black_dye"},{"item":"minecraft:white_dye"},{"item":"minecraft:white_dye"}],"result":{"count":3,"item":"minecraft:stick"},"type":"minecraft:crafting_shapeless"}
+{"group":"light_gray_dye","ingredients":[{"item":"minecraft:black_dye"},{"item":"minecraft:white_dye"},{"item":"minecraft:white_dye"}],"result":{"count":3,"item":"minecraft:gray_stained_glass_pane"},"type":"minecraft:crafting_shapeless"}

@@ -1,1 +1,1 @@
-{"group":"magenta_dye","ingredients":[{"item":"minecraft:blue_dye"},{"item":"minecraft:red_dye"},{"item":"minecraft:pink_dye"}],"result":{"count":3,"item":"minecraft:cobblestone_stairs"},"type":"minecraft:crafting_shapeless"}
+{"group":"magenta_dye","ingredients":[{"item":"minecraft:blue_dye"},{"item":"minecraft:red_dye"},{"item":"minecraft:pink_dye"}],"result":{"count":3,"item":"minecraft:cooked_beef"},"type":"minecraft:crafting_shapeless"}

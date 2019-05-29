@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:light_gray_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:dark_prismarine_slab"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:light_gray_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:prismarine_stairs"},"type":"minecraft:crafting_shaped"}

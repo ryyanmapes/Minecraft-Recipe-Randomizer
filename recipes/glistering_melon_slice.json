@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:melon_slice"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:red_stained_glass_pane"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:gold_nugget"},"X":{"item":"minecraft:melon_slice"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:blue_carpet"},"type":"minecraft:crafting_shaped"}

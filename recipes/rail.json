@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:iron_ingot"}},"pattern":["X X","X#X","X X"],"result":{"count":16,"item":"minecraft:glass_pane"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"item":"minecraft:iron_ingot"}},"pattern":["X X","X#X","X X"],"result":{"count":16,"item":"minecraft:white_bed"},"type":"minecraft:crafting_shaped"}

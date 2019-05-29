@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:redstone"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:polished_diorite_stairs"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"X":{"item":"minecraft:redstone"}},"pattern":["###","#X#","###"],"result":{"item":"minecraft:black_carpet"},"type":"minecraft:crafting_shaped"}

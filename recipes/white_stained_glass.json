@@ -1,1 +1,1 @@
-{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:white_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:paper"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_glass","key":{"#":{"item":"minecraft:glass"},"X":{"item":"minecraft:white_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:birch_button"},"type":"minecraft:crafting_shaped"}

@@ -1,1 +1,1 @@
-{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:string"}},"pattern":["@@","##"],"result":{"item":"minecraft:dark_oak_sign"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"tag":"minecraft:planks"},"@":{"item":"minecraft:string"}},"pattern":["@@","##"],"result":{"item":"minecraft:emerald_block"},"type":"minecraft:crafting_shaped"}

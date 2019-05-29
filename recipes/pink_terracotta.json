@@ -1,1 +1,1 @@
-{"group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:pink_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:iron_chestplate"},"type":"minecraft:crafting_shaped"}
+{"group":"stained_terracotta","key":{"#":{"item":"minecraft:terracotta"},"X":{"item":"minecraft:pink_dye"}},"pattern":["###","#X#","###"],"result":{"count":8,"item":"minecraft:cooked_cod"},"type":"minecraft:crafting_shaped"}

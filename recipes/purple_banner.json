@@ -1,1 +1,1 @@
-{"group":"banner","key":{"#":{"item":"minecraft:purple_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:painting"},"type":"minecraft:crafting_shaped"}
+{"group":"banner","key":{"#":{"item":"minecraft:purple_wool"},"|":{"item":"minecraft:stick"}},"pattern":["###","###"," | "],"result":{"item":"minecraft:andesite"},"type":"minecraft:crafting_shaped"}

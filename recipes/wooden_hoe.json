@@ -1,1 +1,1 @@
-{"key":{"#":{"item":"minecraft:stick"},"X":{"tag":"minecraft:planks"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:diorite_wall"},"type":"minecraft:crafting_shaped"}
+{"key":{"#":{"item":"minecraft:stick"},"X":{"tag":"minecraft:planks"}},"pattern":["XX"," #"," #"],"result":{"item":"minecraft:yellow_stained_glass"},"type":"minecraft:crafting_shaped"}

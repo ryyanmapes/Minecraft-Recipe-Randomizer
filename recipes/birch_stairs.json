@@ -1,1 +1,1 @@
-{"group":"wooden_stairs","key":{"#":{"item":"minecraft:birch_planks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:chest_minecart"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_stairs","key":{"#":{"item":"minecraft:birch_planks"}},"pattern":["#  ","## ","###"],"result":{"count":4,"item":"minecraft:oak_planks"},"type":"minecraft:crafting_shaped"}

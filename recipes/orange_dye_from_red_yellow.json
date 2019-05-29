@@ -1,1 +1,1 @@
-{"group":"orange_dye","ingredients":[{"item":"minecraft:red_dye"},{"item":"minecraft:yellow_dye"}],"result":{"count":2,"item":"minecraft:sea_lantern"},"type":"minecraft:crafting_shapeless"}
+{"group":"orange_dye","ingredients":[{"item":"minecraft:red_dye"},{"item":"minecraft:yellow_dye"}],"result":{"count":2,"item":"minecraft:lectern"},"type":"minecraft:crafting_shapeless"}

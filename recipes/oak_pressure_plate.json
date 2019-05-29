@@ -1,1 +1,1 @@
-{"group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["##"],"result":{"item":"minecraft:chiseled_red_sandstone"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_pressure_plate","key":{"#":{"item":"minecraft:oak_planks"}},"pattern":["##"],"result":{"item":"minecraft:red_sandstone_stairs"},"type":"minecraft:crafting_shaped"}

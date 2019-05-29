@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:pink_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:cooked_chicken"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:pink_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:cobblestone_stairs"},"type":"minecraft:crafting_shaped"}

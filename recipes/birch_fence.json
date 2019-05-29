@@ -1,1 +1,1 @@
-{"group":"wooden_fence","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:birch_planks"}},"pattern":["W#W","W#W"],"result":{"count":3,"item":"minecraft:gray_bed"},"type":"minecraft:crafting_shaped"}
+{"group":"wooden_fence","key":{"#":{"item":"minecraft:stick"},"W":{"item":"minecraft:birch_planks"}},"pattern":["W#W","W#W"],"result":{"count":3,"item":"minecraft:yellow_carpet"},"type":"minecraft:crafting_shaped"}

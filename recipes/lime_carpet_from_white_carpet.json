@@ -1,1 +1,1 @@
-{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:lime_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:purple_stained_glass"},"type":"minecraft:crafting_shaped"}
+{"group":"carpet","key":{"#":{"item":"minecraft:white_carpet"},"$":{"item":"minecraft:lime_dye"}},"pattern":["###","#$#","###"],"result":{"count":8,"item":"minecraft:polished_granite_slab"},"type":"minecraft:crafting_shaped"}
