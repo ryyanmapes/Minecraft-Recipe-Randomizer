@@ -219,7 +219,17 @@
 	]},
 	
 	{"requires": 
-		"ender_eye",
+		{"type": "And",
+		"items": [
+			"ender_eye",
+			{"type": "Or",
+			"items": [
+				"stone_pickaxe",
+				"gold_pickaxe",
+				"iron_pickaxe",
+				"diamond_pickaxe"
+			]}
+		]},
 	 "results":[
 		"end_stone",
 		"end_stone_bricks",
@@ -244,5 +254,49 @@
 		]},
 	 "results": [
 		"bowl"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"chest_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"chest"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"furnace_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"furnace"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"tnt_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"tnt"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"hopper_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"hopper"
 	]}
 ]

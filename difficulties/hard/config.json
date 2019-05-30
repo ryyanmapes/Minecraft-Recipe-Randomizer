@@ -69,35 +69,44 @@
 		"string",
 		"sugar_cane",
 		"sweet_berries",
-		"white_tulip"
-		] },
-		
-	{"requires": 
-		"fishing_rod",
-	 "results": [
-		"cod",
-		"pufferfish",
-		"salmon",
-		"tropical_fish"
-		]},
-
-	{"requires": 
-		{"type": "Or",
-		"items": [
-			"wooden_pickaxe",
-			"stone_pickaxe",
-			"gold_pickaxe",
-			"iron_pickaxe",
-			"diamond_pickaxe"
-		]},
-	 "results": [
+		"white_tulip",
 		"andesite",
 		"cobblestone",
 		"diorite",
 		"granite",
 		"mossy_cobblestone",
-		"terracotta"
-	]},
+		"terracotta",
+		"salmon",
+		"cod",
+		"pufferfish",
+		"tropical_fish",
+		"poisonous_potato",
+		"potato",
+		"beetroot",
+		"wheat",
+		"oak_planks",
+		"birch_planks",
+		"spruce_planks",
+		"jungle_planks",
+		"acacia_planks",
+		"dark_oak_planks",
+		"crafting_table",
+		"stonecutter",
+		"smoker",
+		"blast_furnace",
+		"grey_wool",
+		"light_grey_wool",
+		"brown_wool",
+		"black_wool",
+		
+		] },
+		
+	{"requires": 
+		"fishing_rod",
+	 "results": [
+		"tripwire_hook"
+		]},
+		
 	{"requires": 
 		{"type": "Or",
 		"items": [
@@ -130,12 +139,15 @@
 	{"requires": 
 		{"type": "And",
 		"items": [
-			"diamond_pickaxe",
+			"bucket",
 			{
 				"type": "Or",
 				"items": [
-					"flint_and_steel",
-					"fire_charge"
+					"wooden_pickaxe",
+					"stone_pickaxe",
+					"gold_pickaxe",
+					"iron_pickaxe",
+					"diamond_pickaxe"
 				]
 			}
 		]},
@@ -143,7 +155,6 @@
 		"magma_block",
 		"nether_bricks",
 		"netherrack",
-		"obsidian",
 		"soul_sand",
 		"wither_rose",
 		"blaze_rod",
@@ -156,13 +167,21 @@
 		"wither_skeleton_skull"
 	]},
 	
+	{"requires":
+		"diamond_pickaxe",
+	"results": [
+		"obsidian"
+	]},
 	
 	{"requires": 
-		{"type": "And",
-		"items": [
-			"enchanting_table",
-			"bookshelf"
-		]},
+		{"type": "Or",
+			"items": [
+			{"type": "And",
+			"items": [
+				"enchanting_table",
+				"bookshelf"
+			]},
+			"anvil"]},
 	 "results": [
 		"blue_ice",
 		"coal_ore",
@@ -187,22 +206,6 @@
 		"fern",
 		"vine",
 		"carved_pumpkin"
-	]},
-	
-	{"requires": 
-		{"type": "Or",
-		"items": [
-			"wooden_hoe",
-			"stone_hoe",
-			"gold_hoe",
-			"iron_hoe",
-			"diamond_hoe"
-		]},
-	 "results": [
-		"poisonous_potato",
-		"potato",
-		"beetroot",
-		"wheat"
 	]},
 	
 	{"requires": 
@@ -244,5 +247,49 @@
 		]},
 	 "results": [
 		"bowl"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"chest_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"chest"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"furnace_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"furnace"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"tnt_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"tnt"
+	]},
+	
+	{"requires": 
+		{"type": "And",
+		"items": [
+			"#rails",
+			"hopper_minecart"
+		]},
+	 "results": [
+		"minecart",
+		"hopper"
 	]}
 ]
